@@ -1,8 +1,34 @@
-# Arms
+# Arms: Efficient Routing of Vision-Language Models as API Services
 
-This repository provides code for training an Router and using a Router.
+> Anonymous submission repository.
 
-For training, a pickle file with the list of the following structure is needed,
+Arms is a router for vision-language model (VLM) selection.  
+Given an image-text query and a candidate VLM, Arms predicts whether the VLM can answer correctly, then supports confidence-aware routing in both in-distribution (ID) and out-of-distribution (OOD) settings.
+
+## Overview
+
+This repository contains:
+
+- Code for training and evaluating Arms.
+- Routing examples for single-router and cascaded strategies.
+- Data interface used for supervised routing labels.
+
+## Key Ideas
+
+- **Multimodal routing formulation**: route VLMs with image-text queries instead of text-only prompts.
+- **Capability-aware signals**: include VLM profile text as part of router input.
+- **MoE-based router**: use a mixture-of-experts architecture to model interactions between query difficulty and VLM capability.
+- **Scalable extension**: support unseen VLMs with incremental and independent training strategies.
+
+The overall architecture is shown below (replace with your final PNG):
+
+<p align="center">
+  <img src="pic/architecture.jpg" alt="arms architecture" width="85%">
+</p>
+
+## Data Format
+
+For training, prepare a pickle file containing records with the following schema:
 
 ```python
 class JudgedRecord(TypedDict):
@@ -18,8 +44,11 @@ class JudgedRecord(TypedDict):
     correct: bool
 ```
 
-Where the `image` is an open image in the `PIL` library. You can modify `pkl_data_files` variable to supple your own dataset.
+`image` is an opened PIL image object. You can modify `pkl_data_files` to use your own dataset.
 
-For inference, you should, in addition, provide `acc_judge_mapper` to `routing.py`, which is a mapper of `{key: boolean}`, where `key` should be in the form of `dataset-name_model-name_record-id`.
+## Inference and Routing
 
-For cascaded routing, you may refer to the code in `route_example.py`.
+- For inference, provide `acc_judge_mapper` to `routing.py`.
+- The mapper format is `{key: boolean}`, where key is `dataset-name_model-name_record-id`.
+- For cascaded routing, see `route_example.py`.
+
