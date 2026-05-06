@@ -1,3 +1,9 @@
+> **Correction (anonymous repository)**  
+> Due to an error on our side, the anonymous review code repository for *Towards Robust Tool Use in LLM Agents via Experience-Driven Adaptive Guidance* is actually at:  
+> **<https://anonymous.4open.science/r/ExpG-7715>**
+
+---
+
 # Arms: Efficient Routing of Vision-Language Models as API Services
 
 > Anonymous submission repository.
