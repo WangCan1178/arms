@@ -1,0 +1,13 @@
+# Python 3.10+
+torch>=2.2,<3
+transformers>=4.49,<5
+accelerate>=0.28,<2
+datasets>=2.18,<5
+numpy>=1.24,<3
+Pillow>=10,<13
+tqdm>=4.66,<5
+requests>=2.31,<3
+GitPython>=3.1,<4
+huggingface-hub>=0.27,<2
+pyarrow>=15,<24
+sentencepiece>=0.2,<1

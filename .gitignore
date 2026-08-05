@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+
+# Downloaded benchmark materials and generated images
+data/raw/
+data/processed/
+data/.hf_cache/
+hf_cache/
+
+# Model outputs, checkpoints, logs, and local caches
+outputs/
+logs/
+skip_cache/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+wandb/
