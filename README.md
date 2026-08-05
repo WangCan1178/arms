@@ -74,9 +74,24 @@ paper's original-pool setting:
 
 Each compressed JSONL file contains stable query metadata, a portable image
 key, and one binary correctness label per candidate. Questions, images,
-reference answers, and raw model generations are not redistributed. The
-included scripts reconstruct the public benchmark queries and join them with
-the released routing labels.
+reference answers, and raw model generations are not stored in this GitHub
+repository. The included scripts reconstruct the public benchmark queries and
+join them with the released routing labels.
+
+### Full Dataset Archive
+
+The sanitized, paper-aligned release containing the query records and referenced
+images is available through Baidu Netdisk:
+
+- **Archive:** `ARMS_Baidu_Public_Release.zip`
+- **Download:** [Baidu Netdisk](https://pan.baidu.com/s/1-MWA29iyZT7UiC0-UqE5lQ?pwd=jah9)
+- **Access code:** `jah9`
+
+The archive contains 39,710 queries, 158,840 query-model labels, and 33,613
+referenced images. It excludes raw candidate generations, machine-specific
+paths, caches, logs, and token, cost, or latency estimates. A manifest and
+per-image SHA-256 checksums are included for integrity verification. Users must
+also comply with the terms of the upstream benchmark sources listed below.
 
 These files support the paper's 39,710-query original-pool experiments. The
 paper reports 56,107 queries across all original-pool and pool-evolution
