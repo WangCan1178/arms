@@ -17,7 +17,7 @@ except ImportError:  # pragma: no cover - exercised only in minimal environments
         return iterable
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_ROOT = PROJECT_ROOT / "data"
 DEFAULT_ID_TRAIN = DATA_ROOT / "processed" / "m2_id_free_train.jsonl"
 DEFAULT_ID_TEST = DATA_ROOT / "processed" / "m2_id_free_test.jsonl"

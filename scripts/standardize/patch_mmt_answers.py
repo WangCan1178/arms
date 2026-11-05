@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, Mapping, Tuple
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_ROOT = PROJECT_ROOT / "data"
 DEFAULT_INPUT = DATA_ROOT / "processed" / "id_queries_standardized.jsonl"
 DEFAULT_MMT_ANSWER = DATA_ROOT / "raw" / "MMT-Bench" / "MMT-Bench_ALL_MI_anno.tsv"

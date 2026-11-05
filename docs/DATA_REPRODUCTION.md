@@ -19,8 +19,8 @@ files.
 ## 2. Acquire Public Benchmark Sources
 
 ```bash
-python scripts/download_open_datasets.py
-python scripts/download_vhelm_v201_instances.py
+python scripts/benchmarks/download_open_datasets.py
+python scripts/benchmarks/download_vhelm_v201_instances.py
 ```
 
 The scripts create `data/raw/` and retain upstream provenance information.
@@ -28,9 +28,9 @@ The scripts create `data/raw/` and retain upstream provenance information.
 ## 3. Standardize Queries and Materialize Images
 
 ```bash
-python scripts/standardize_id_benchmarks.py
-python scripts/patch_mmt_answers.py
-python scripts/standardize_vhelm.py --download-images
+python scripts/standardize/standardize_id_benchmarks.py
+python scripts/standardize/patch_mmt_answers.py
+python scripts/standardize/standardize_vhelm.py --download-images
 ```
 
 The default outputs are:
@@ -43,7 +43,7 @@ data/processed/vhelm_10k_queries.jsonl
 ## 4. Download the Four Open Candidates
 
 ```bash
-python scripts/download_vlm_models.py
+python scripts/inference/download_vlm_models.py
 ```
 
 The model identifiers are fixed in the script. Model downloads are much larger
@@ -54,7 +54,7 @@ than this repository and are not committed.
 Run the inference entry point once for each model and split. For example:
 
 ```bash
-python scripts/run_vlm_inference.py \
+python scripts/inference/run_vlm_inference.py \
   --model Qwen/Qwen2.5-VL-7B-Instruct \
   --input data/processed/id_queries_standardized.jsonl \
   --output outputs/id/id_qwen.jsonl \
@@ -78,13 +78,13 @@ uses each processor's chat template, bfloat16 weights, greedy decoding, and
 After all four output files are complete:
 
 ```bash
-python scripts/merge_parse_label_filter.py \
+python scripts/label/merge_parse_label_filter.py \
   --mode id \
   --inputs outputs/id/id_qwen.jsonl outputs/id/id_idefics2.jsonl \
            outputs/id/id_smolvlm2.jsonl outputs/id/id_llama.jsonl \
   --canonical-input data/processed/id_queries_standardized.jsonl
 
-python scripts/merge_parse_label_filter.py \
+python scripts/label/merge_parse_label_filter.py \
   --mode ood \
   --inputs outputs/ood/ood_qwen.jsonl outputs/ood/ood_idefics2.jsonl \
            outputs/ood/ood_smolvlm2.jsonl outputs/ood/ood_llama.jsonl
@@ -97,7 +97,7 @@ which at least one candidate is correct.
 ## 7. Export the Public Paper Splits
 
 ```bash
-python scripts/export_public_dataset.py \
+python scripts/release/export_public_dataset.py \
   --id-train data/processed/m2_id_free_train.jsonl \
   --id-test data/processed/m2_id_free_test.jsonl \
   --ood-test data/processed/m2_ood_free_test.jsonl \
@@ -116,7 +116,7 @@ in `dataset/result`.
 ## 8. Validate
 
 ```bash
-python3 scripts/validate_public_dataset.py data/original_pool
+python3 scripts/release/validate_public_dataset.py data/original_pool
 ```
 
 Expected counts are 29,626 ID train, 3,000 ID test, and 7,084 OOD test.
@@ -127,7 +127,7 @@ To train from the compact release, join one label split with the corresponding
 standardized queries reconstructed in Steps 2–3:
 
 ```bash
-python scripts/materialize_router_records.py \
+python scripts/release/materialize_router_records.py \
   --labels data/original_pool/original_pool_id_train.jsonl.gz \
   --queries data/processed/id_queries_standardized.jsonl \
   --project-root . \

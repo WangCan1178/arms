@@ -13,7 +13,7 @@ import requests
 from tqdm import tqdm
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 VHELM_ROOT = PROJECT_ROOT / "data" / "raw" / "VHELM"
 GCS_API = "https://storage.googleapis.com/storage/v1/b/crfm-helm-public/o"
 GCS_OBJECT_BASE = "https://storage.googleapis.com/crfm-helm-public/"

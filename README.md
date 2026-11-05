@@ -47,7 +47,12 @@ flowchart LR
 ├── train.py                    # router model and original training entry point
 ├── routing.py                  # original experiment evaluation code
 ├── route_example.py            # independent/cascaded routing example
-├── scripts/                    # reconstruction, export, and validation tools
+├── scripts/
+│   ├── benchmarks/             # download ALM-Bench, MMT-Bench, MME-RealWorld, and VHELM
+│   ├── standardize/            # normalize queries and materialize images
+│   ├── inference/              # invoke open-source and commercial candidates
+│   ├── label/                  # parse answers and keep answerable queries
+│   └── release/                # export, validate, and materialize the paper splits
 ├── paper/                      # AAAI LaTeX sources and figures
 ├── dataset/result/             # query records and model outputs, without images
 ├── docs/DATA_REPRODUCTION.md  # end-to-end data reconstruction guide
@@ -71,7 +76,7 @@ paper's original-pool setting:
 | OOD test | VHELM | 7,084 | 28,336 |
 | **Total** | 4 public benchmark families | **39,710** | **158,840** |
 
-These four-model labels are the `label` fields in [`dataset/result`](dataset/result/). ID train and ID test include every row of those files. The OOD split keeps the 7,084 VHELM rows selected by `scripts/export_public_dataset.py` and drops `a_okvqa_swahili`, `crossmodal_3600`, and `bingo`. That script can write the compact gzip files to `data/original_pool`; those files are not stored in this repository.
+These four-model labels are the `label` fields in [`dataset/result`](dataset/result/). ID train and ID test include every row of those files. The OOD split keeps the 7,084 VHELM rows selected by `scripts/release/export_public_dataset.py` and drops `a_okvqa_swahili`, `crossmodal_3600`, and `bingo`. That script can write the compact gzip files to `data/original_pool`; those files are not stored in this repository.
 
 ### Full Dataset Archive
 
@@ -113,19 +118,19 @@ The public files were built from the same query-level format produced by the
 pipeline in `scripts/`:
 
 ```bash
-python scripts/download_open_datasets.py
-python scripts/download_vhelm_v201_instances.py
-python scripts/standardize_id_benchmarks.py
-python scripts/patch_mmt_answers.py
-python scripts/standardize_vhelm.py --download-images
-python scripts/download_vlm_models.py
+python scripts/benchmarks/download_open_datasets.py
+python scripts/benchmarks/download_vhelm_v201_instances.py
+python scripts/standardize/standardize_id_benchmarks.py
+python scripts/standardize/patch_mmt_answers.py
+python scripts/standardize/standardize_vhelm.py --download-images
+python scripts/inference/download_vlm_models.py
 ```
 
-Run `scripts/run_vlm_inference.py` once for every candidate and split, merge
-the results with `scripts/merge_parse_label_filter.py`, and export the compact
-labels with `scripts/export_public_dataset.py`. To train from the public
+Run `scripts/inference/run_vlm_inference.py` once for every candidate and split, merge
+the results with `scripts/label/merge_parse_label_filter.py`, and export the compact
+labels with `scripts/release/export_public_dataset.py`. To train from the public
 release, join the compact labels with locally reconstructed queries using
-`scripts/materialize_router_records.py`. The complete command sequence is
+`scripts/release/materialize_router_records.py`. The complete command sequence is
 documented in [docs/DATA_REPRODUCTION.md](docs/DATA_REPRODUCTION.md).
 
 Open-source candidate inference uses bfloat16 weights, each model processor's

@@ -20,7 +20,7 @@ import requests
 from tqdm import tqdm
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_ROOT = PROJECT_ROOT / "data"
 VHELM_ROOT = DATA_ROOT / "raw" / "VHELM"
 DEFAULT_OUTPUT = DATA_ROOT / "processed" / "vhelm_10k_queries.jsonl"
