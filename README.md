@@ -171,6 +171,16 @@ All labels belonging to one query remain in the same split, and every released
 query has at least one correct candidate. `image_key` is resolved only after
 the corresponding public benchmark data have been reconstructed locally.
 
+## Paper and extended results
+
+The AAAI LaTeX sources and figures are in [`paper/`](paper/).
+
+Query-level results for the extended candidate pool are in [`dataset/result/`](dataset/result/). Benchmark images are not included. The ID training split is stored as `dataset/result/m2_id_free_train.jsonl.gz` because the raw file exceeds GitHub's 100 MB limit. Decompress it with:
+
+```bash
+gzip -dc dataset/result/m2_id_free_train.jsonl.gz > dataset/result/m2_id_free_train.jsonl
+```
+
 ## Citation
 
 If you use ARMS or the released routing data, please cite the accompanying
@@ -184,5 +194,7 @@ available.
 [MME-RealWorld](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld-Base64),
 and [VHELM/HELM](https://github.com/stanford-crfm/helm) remain subject to their
 respective upstream terms and licenses. This repository does not redistribute
-their questions, answers, or image files. Review the upstream terms before
-downloading or redistributing benchmark content.
+benchmark image files. Compact labels in `data/original_pool/` omit questions,
+answers, and raw generations. Extended records in `dataset/result/` include
+questions, reference answers, and model outputs. Review the upstream terms
+before downloading or redistributing that benchmark content.

@@ -6,6 +6,8 @@ __pycache__/
 .vscode/
 
 # Downloaded benchmark materials and generated images
+dataset/result/images/
+dataset/result/vhelm/
 data/raw/
 data/processed/
 data/.hf_cache/

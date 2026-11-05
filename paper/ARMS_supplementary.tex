@@ -1,0 +1,255 @@
+\documentclass[letterpaper]{article}
+\usepackage[submission]{aaai2027}
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\urlstyle{rm}
+\def\UrlFont{\rm}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\frenchspacing
+
+\pdfinfo{
+/TemplateVersion (2027.1)
+}
+
+\setcounter{secnumdepth}{0}
+
+\title{Supplementary Material for ARMS: Routing by Model Capabilities for
+Evolving Vision-Language Model Pools}
+\author{Anonymous Submission}
+\affiliations{}
+
+\begin{document}
+\maketitle
+
+\section{Scope}
+
+This supplement provides additional implementation and evaluation details for
+ARMS, including routing supervision, capability descriptors, optimization,
+pool evolution, and ablation settings.
+
+\section{Routing Supervision Protocol}
+
+Let $D_{\rm old}$ denote the labeled query--candidate pairs used to train the
+router for the original four candidates, and $D_{\rm new}$ the pairs for the
+three newly added candidates used in the evolved-pool experiments. The two
+annotation groups are maintained separately. The ID/OOD sources and
+partitioning follow the main paper.
+
+For query $i$, candidate $j$, candidate response $\hat y_{i,j}$, and reference
+answer $y_i$, the suitability label is
+\begin{equation}
+\bar y_{i,j}=\mathbb{1}\!\left[
+\operatorname{norm}(\hat y_{i,j})=
+\operatorname{norm}(y_i)\right].
+\label{eq:label}
+\end{equation}
+For each candidate pool, we retain query $i$ only if
+$\max_j\bar y_{i,j}=1$; that is, at least one candidate is correct under
+Equation~\ref{eq:label}. The oracle therefore obtains EM 1.0 by construction.
+This protocol evaluates candidate selection conditional on a correct candidate
+being available. Queries on which all candidates fail are excluded from both
+training and evaluation; failure detection and abstention are not evaluated.
+All outcomes for one query remain in the same partition; splitting is performed
+at the query level rather than the query--candidate-pair level.
+
+\paragraph{Prompting and parsing.}
+Multiple-choice prompts request only the letter of the correct answer. The
+parser extracts the first valid standalone option letter and compares it
+case-insensitively with the reference. Free-form normalization strips leading
+and trailing whitespace, lowercases, and collapses consecutive whitespace
+before strict equality. It does not apply semantic or substring matching.
+
+\section{Candidates and Capability Descriptors}
+
+The original pool contains Qwen2.5-VL-7B, Idefics2-8B, SmolVLM2-2B, and
+Llama-3.2-11B-Vision. The evolved pool adds GPT-4o, Claude 3.5 Sonnet, and
+Gemini 1.5 Flash.
+
+\paragraph{Candidate inference.}
+Open-source candidate responses are generated with bfloat16 weights, each
+processor's chat template,
+\texttt{max\_new\_tokens=16}, and deterministic greedy decoding
+(\texttt{do\_sample=False}).
+
+Each candidate is represented by one structured textual descriptor. The
+descriptor records the candidate identity and model version, parameter scale,
+architecture family, vision backbone, language backbone, and a concise
+summary of documented capabilities. The same schema is used for open-source and
+commercial candidates. Descriptors are encoded once and cached because they do
+not depend on the query. Upon publication, the companion artifact will provide
+the seven verbatim descriptor strings together with provider model identifiers,
+access dates for commercial APIs, and immutable checkpoint revisions for
+open-source models.
+
+\section{ARMS Implementation}
+
+\subsection{Encoders, fusion, and matching}
+
+The query text and each capability descriptor are encoded with DistilBERT. A
+CLIP-ViT-B/32 image encoder produces visual tokens. The question representation
+has dimension $d_q=768$, the visual tokens have dimension $d_g=512$, and the
+descriptor embedding has dimension $d_m=768$.
+
+A query-dependent gate assigns a soft weight to each of four cross-attention
+experts:
+\begin{equation}
+p_i=\operatorname{softmax}\!\left(
+W_{\rm gate}[q_i;\bar g_i]+b_{\rm gate}\right).
+\end{equation}
+Each expert uses the question as query over visual tokens. If
+$a_i^{(n)}$ is expert $n$'s attended visual feature and $e_i^{(n)}$ its fused
+output, the shared query representation is
+\begin{equation}
+e_i=\sum_{n=1}^{4}p_i^{(n)}e_i^{(n)}.
+\end{equation}
+After concatenating $e_i$ with the question representation, ARMS projects the
+result into the descriptor space and computes cosine
+similarities. The cosine is clipped away from $\{-1,1\}$ before the bounded
+inverse-hyperbolic-tangent transform and sigmoid described in the main paper.
+Descriptor embeddings are cached, so query encoding and expert fusion are
+shared across all candidates.
+
+\subsection{Candidate-order invariance and complexity}
+
+ARMS applies the same scoring function $f_{\Phi}(x_i,M_j)$ to every candidate.
+Permuting the candidate list therefore permutes the scores but does not change
+the selected model. Adding a candidate also leaves the learned output shape
+unchanged: the new descriptor is encoded into the same matching space instead
+of adding a new coordinate to a fixed classification head. This structural
+property supports pool evolution, although reliable routing to an unseen model
+still requires outcome supervision.
+
+Let $C_{\rm enc}$ be the computational cost of the image and text encoders,
+$C_{\rm att}$ the cost of one fusion expert, $K$ the candidate count, and $d_m$
+the descriptor dimension. With cached descriptors, per-query complexity is
+\begin{equation}
+O(C_{\rm enc}+4C_{\rm att}+Kd_m).
+\end{equation}
+Only the final matching term grows with the pool, and no candidate VLM is invoked
+before selection. This expression is asymptotic; latency and throughput are not
+measured.
+
+\subsection{Optimization and hardware}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+Component & Reported setting\\
+\midrule
+Image encoder & CLIP-ViT-B/32\\
+Text/descriptor encoder & DistilBERT\\
+Fusion experts & 4\\
+Visual/text/descriptor dims. & 512 / 768 / 768\\
+Batch size & 64\\
+Optimizer & AdamW\\
+Learning rate & $8\times10^{-5}$\\
+Weight decay & $10^{-2}$\\
+Router hardware & $4\times$RTX 4090\\
+Open-model output collection & $4\times$A100\\
+\bottomrule
+\end{tabular}
+\caption{Core implementation settings reported for ARMS.}
+\label{tab:implementation}
+\end{table}
+
+The router hardware also includes a 16-core Xeon Gold 6430 CPU. Binary
+cross-entropy is applied to the query--candidate labels in
+Equation~\ref{eq:label}. At evaluation time, all candidates for a query are
+scored and the candidate with the maximum score is selected.
+
+\section{Protocol for an Evolving VLM Pool}
+
+\paragraph{Incremental training.}
+Starting from the original router $\Phi$, incremental training continues
+optimization on $D_{\rm new}$ and produces $\Phi+\Delta\Phi$. This reuses the
+original representation but can be sensitive to imbalance between supervision
+for the original and new candidates.
+
+\paragraph{Independent training.}
+A second router $\Theta$ is trained only on $D_{\rm new}$. For query $x$, the
+original router first returns its top candidate $V_o$ and confidence $c_o$. If
+$c_o>\theta$, $V_o$ is accepted. Otherwise, the new-pool router returns
+$(V_n,c_n)$, and ARMS selects $V_o$ when $c_o\geq c_n$ and $V_n$ otherwise.
+Thus, independent training avoids parameter interference and invokes the
+new-pool router only when the old-pool confidence does not pass the cascade
+threshold.
+
+The threshold analysis in the main paper reports the full tested range rather
+than relying on OOD labels as an optimization signal. The two router maxima are
+compared on the confidence scale defined above, and the reported curve is
+interpreted without assuming that the two routers are perfectly calibrated.
+
+\section{Evaluation and Additional Results}
+
+\noindent\textbf{Answer-level and pairwise metrics.}\par
+\noindent
+Let $j_i^\star=\arg\max_j c_{i,j}$. The primary metric is
+\begin{equation}
+\operatorname{EM}=\frac{1}{|\mathcal{Q}|}
+\sum_{i\in\mathcal{Q}}\bar y_{i,j_i^\star}.
+\end{equation}
+Accuracy, precision, recall, and F1 instead evaluate every
+query--candidate suitability pair. These metrics need not move together:
+misclassifying one of several correct candidates may leave EM unchanged, while
+one highly ranked false positive can reduce EM despite otherwise accurate
+pairwise predictions.
+
+Table~\ref{tab:full-ablation} restores the precision and recall columns for the
+component ablation summarized in the main paper.
+
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{lccccc}
+\toprule
+Variant & Acc. & Prec. & Rec. & F1 & EM\\
+\midrule
+Freeze image
+& .6542 & .6270 & .6644 & .6452 & .5351\\
+Freeze text
+& .5875 & .3558 & .6630 & .4631 & .3480\\
+Concatenation
+& .6577 & .6091 & .5979 & .6036 & .5272\\
+Model name only
+& .6254 & .5994 & .6351 & .6168 & .5115\\
+ARMS
+& \textbf{.6751} & \textbf{.6403} & \textbf{.6882}
+& \textbf{.6634} & \textbf{.5721}\\
+\bottomrule
+\end{tabular}
+\caption{Complete component ablation metrics on the four-candidate ID split.
+``Model name only'' replaces the structured descriptor by the model name.}
+\label{tab:full-ablation}
+\end{table}
+
+\paragraph{Ablation configurations.}
+``Freeze image'' keeps CLIP fixed while updating the remaining router.
+``Freeze text'' fixes DistilBERT, which affects both question and descriptor
+encoding. ``Concatenation'' replaces the gated cross-attention experts with a
+direct image--text feature concatenation. ``Model name only'' retains only the
+candidate name as $M_j$. All variants keep the evaluation rule unchanged, so
+the EM differences isolate representation and fusion choices rather than a
+different selection policy.
+
+\section{Release and Reproducibility Commitments}
+
+Upon publication, we will release routing records, splits, normalized labels,
+prompts, candidate descriptors, preprocessing, training and evaluation code,
+final configurations, and an environment specification. Non-redistributable
+third-party content will be represented by identifiers and reconstruction
+scripts. Only metadata verified against original logs will be included;
+unrecovered exact seed values, software versions, and statistical tests are not
+claimed.
+
+\paragraph{Computing resources and repeated runs.}
+Router training used four NVIDIA RTX 4090 GPUs and a 16-core Intel Xeon Gold
+6430 CPU; open-source VLM outputs used four NVIDIA A100 GPUs. Each configuration
+was run three times with distinct random seeds, and reported metrics are the
+arithmetic means; all other settings were fixed across repetitions.
+
+\end{document}
