@@ -108,7 +108,10 @@ This command converts image references to portable paths, removes
 machine-specific fields, keeps only stable routing metadata and Boolean
 candidate labels, selects the 7,084-query OOD split, writes deterministic gzip
 files, and generates SHA-256 checksums. Questions, answers, source URLs, and raw
-model generations are deliberately excluded from the public export.
+model generations are deliberately excluded from the compact export. The
+`data/original_pool` directory is generated here and is not stored in the
+repository; the same labels are already present on the four open-source models
+in `dataset/result`.
 
 ## 8. Validate
 

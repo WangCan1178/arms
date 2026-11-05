@@ -48,9 +48,8 @@ flowchart LR
 ├── routing.py                  # original experiment evaluation code
 ├── route_example.py            # independent/cascaded routing example
 ├── scripts/                    # reconstruction, export, and validation tools
-├── data/
-│   ├── README.md               # schema and data-release documentation
-│   └── original_pool/          # compact routing labels for the paper splits
+├── paper/                      # AAAI LaTeX sources and figures
+├── dataset/result/             # query records and model outputs, without images
 ├── docs/DATA_REPRODUCTION.md  # end-to-end data reconstruction guide
 └── results/                    # analysis scripts and generated result files
 ```
@@ -72,11 +71,7 @@ paper's original-pool setting:
 | OOD test | VHELM | 7,084 | 28,336 |
 | **Total** | 4 public benchmark families | **39,710** | **158,840** |
 
-Each compressed JSONL file contains stable query metadata, a portable image
-key, and one binary correctness label per candidate. Questions, images,
-reference answers, and raw model generations are not stored in this GitHub
-repository. The included scripts reconstruct the public benchmark queries and
-join them with the released routing labels.
+These four-model labels are the `label` fields in [`dataset/result`](dataset/result/). ID train and ID test include every row of those files. The OOD split keeps the 7,084 VHELM rows selected by `scripts/export_public_dataset.py` and drops `a_okvqa_swahili`, `crossmodal_3600`, and `bingo`. That script can write the compact gzip files to `data/original_pool`; those files are not stored in this repository.
 
 ### Full Dataset Archive
 
@@ -97,15 +92,6 @@ These files support the paper's 39,710-query original-pool experiments. The
 paper reports 56,107 queries across all original-pool and pool-evolution
 experiments; the latter use the same routing formulation but are not part of
 this public original-pool release.
-
-Validate the release with only the Python standard library:
-
-```bash
-python3 scripts/validate_public_dataset.py data/original_pool
-```
-
-See [data/README.md](data/README.md) for the schema, file checksums, split
-construction, materialization command, and loading example.
 
 ## Installation
 
