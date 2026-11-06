@@ -166,10 +166,10 @@ the corresponding public benchmark data have been reconstructed locally.
 
 The AAAI LaTeX sources and figures are in [`paper/`](paper/).
 
-Query-level results for the extended candidate pool are in [`dataset/result/`](dataset/result/). Benchmark images are not included. The ID training split is stored as `dataset/result/m2_id_free_train.jsonl.gz` because the raw file exceeds GitHub's 100 MB limit. Decompress it with:
+Query-level results for the extended candidate pool are in [`dataset/result/`](dataset/result/). Benchmark images are not included. The ID training split is uncompressed JSONL, split into `dataset/result/m2_id_free_train_parts/` because the full file exceeds GitHub's 100 MB limit. Join the parts with:
 
 ```bash
-gzip -dc dataset/result/m2_id_free_train.jsonl.gz > dataset/result/m2_id_free_train.jsonl
+cat dataset/result/m2_id_free_train_parts/part-*.jsonl > dataset/result/m2_id_free_train.jsonl
 ```
 
 ## Citation
