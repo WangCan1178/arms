@@ -1,0 +1,242 @@
+{
+  "id_test": {
+    "queries": 3000,
+    "oracle_em": 1.0,
+    "single_model_em": [
+      {
+        "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+        "short": "qwen2.5-vl-7b",
+        "correct": 2337,
+        "queries": 3000,
+        "em": 0.779
+      },
+      {
+        "model": "HuggingFaceM4/idefics2-8b",
+        "short": "idefics2-8b",
+        "correct": 2139,
+        "queries": 3000,
+        "em": 0.713
+      },
+      {
+        "model": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "short": "smolvlm2-2.2b",
+        "correct": 1947,
+        "queries": 3000,
+        "em": 0.649
+      },
+      {
+        "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+        "short": "llama-3.2-11b",
+        "correct": 1915,
+        "queries": 3000,
+        "em": 0.6383333333333333
+      },
+      {
+        "model": "kimi-k3",
+        "short": "kimi-k3",
+        "correct": 2754,
+        "queries": 3000,
+        "em": 0.918
+      },
+      {
+        "model": "deepseek-v4.1-flash",
+        "short": "deepseek-v4.1-flash",
+        "correct": 2443,
+        "queries": 3000,
+        "em": 0.8143333333333334
+      },
+      {
+        "model": "qwen3.8-max",
+        "short": "qwen3.8-max",
+        "correct": 2633,
+        "queries": 3000,
+        "em": 0.8776666666666667
+      },
+      {
+        "model": "glm-5.3-flash",
+        "short": "glm-5.3-flash",
+        "correct": 2562,
+        "queries": 3000,
+        "em": 0.854
+      }
+    ],
+    "coverage": {
+      "queries": 3000,
+      "original_all_wrong": 0,
+      "recovered_by_new_models": 0,
+      "recovered_rate_of_all": 0.0,
+      "recovered_rate_of_missed": 0.0
+    },
+    "best_single": {
+      "model": "kimi-k3",
+      "em": 0.918,
+      "gap_to_oracle": 0.08199999999999996
+    }
+  },
+  "ood_paper": {
+    "queries": 7084,
+    "oracle_em": 1.0,
+    "single_model_em": [
+      {
+        "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+        "short": "qwen2.5-vl-7b",
+        "correct": 6367,
+        "queries": 7084,
+        "em": 0.8987859966120836
+      },
+      {
+        "model": "HuggingFaceM4/idefics2-8b",
+        "short": "idefics2-8b",
+        "correct": 5846,
+        "queries": 7084,
+        "em": 0.8252399774138904
+      },
+      {
+        "model": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "short": "smolvlm2-2.2b",
+        "correct": 5211,
+        "queries": 7084,
+        "em": 0.7356013551665725
+      },
+      {
+        "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+        "short": "llama-3.2-11b",
+        "correct": 5787,
+        "queries": 7084,
+        "em": 0.8169113495200452
+      },
+      {
+        "model": "kimi-k3",
+        "short": "kimi-k3",
+        "correct": 6685,
+        "queries": 7084,
+        "em": 0.9436758893280632
+      },
+      {
+        "model": "deepseek-v4.1-flash",
+        "short": "deepseek-v4.1-flash",
+        "correct": 6486,
+        "queries": 7084,
+        "em": 0.9155844155844156
+      },
+      {
+        "model": "qwen3.8-max",
+        "short": "qwen3.8-max",
+        "correct": 6679,
+        "queries": 7084,
+        "em": 0.9428289102202145
+      },
+      {
+        "model": "glm-5.3-flash",
+        "short": "glm-5.3-flash",
+        "correct": 6662,
+        "queries": 7084,
+        "em": 0.94042913608131
+      }
+    ],
+    "coverage": {
+      "queries": 7084,
+      "original_all_wrong": 0,
+      "recovered_by_new_models": 0,
+      "recovered_rate_of_all": 0.0,
+      "recovered_rate_of_missed": 0.0
+    },
+    "heatmap_models": [
+      "qwen2.5-vl-7b",
+      "idefics2-8b",
+      "smolvlm2-2.2b",
+      "llama-3.2-11b",
+      "kimi-k3",
+      "deepseek-v4.1-flash",
+      "qwen3.8-max",
+      "glm-5.3-flash"
+    ],
+    "heatmap_given_row_wrong_col_correct": [
+      [
+        0.0,
+        0.5341701534170153,
+        0.49372384937238495,
+        0.5788005578800558,
+        0.7377963737796374,
+        0.6527196652719666,
+        0.7224546722454672,
+        0.7322175732217573
+      ],
+      [
+        0.7302100161550888,
+        0.0,
+        0.4369951534733441,
+        0.6098546042003231,
+        0.8473344103392568,
+        0.7915993537964459,
+        0.8473344103392568,
+        0.8432956381260097
+      ],
+      [
+        0.8061932728243459,
+        0.6278697277095568,
+        0.0,
+        0.6300053390282968,
+        0.8825413774693006,
+        0.8232781633742658,
+        0.8857447944474106,
+        0.8814735718099306
+      ],
+      [
+        0.7671549730146492,
+        0.6276021588280648,
+        0.4656900539707016,
+        0.0,
+        0.8350038550501157,
+        0.7810331534309946,
+        0.810331534309946,
+        0.8419429452582884
+      ],
+      [
+        0.5288220551378446,
+        0.5263157894736842,
+        0.44862155388471175,
+        0.46365914786967416,
+        0.0,
+        0.39598997493734334,
+        0.43609022556390975,
+        0.5213032581453634
+      ],
+      [
+        0.5836120401337793,
+        0.568561872909699,
+        0.44648829431438125,
+        0.5250836120401338,
+        0.596989966555184,
+        0.0,
+        0.617056856187291,
+        0.6220735785953178
+      ],
+      [
+        0.508641975308642,
+        0.5333333333333333,
+        0.47160493827160493,
+        0.3925925925925926,
+        0.4444444444444444,
+        0.4345679012345679,
+        0.0,
+        0.48148148148148145
+      ],
+      [
+        0.5450236966824644,
+        0.5402843601895735,
+        0.47393364928909953,
+        0.514218009478673,
+        0.54739336492891,
+        0.46445497630331756,
+        0.5023696682464455,
+        0.0
+      ]
+    ],
+    "best_single": {
+      "model": "kimi-k3",
+      "em": 0.9436758893280632,
+      "gap_to_oracle": 0.05632411067193677
+    }
+  }
+}

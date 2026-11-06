@@ -164,7 +164,7 @@ request_once() {
 
 call_model() {
   local model="$1" image="$2" prompt="$3" row_file="$4" dest="$5"
-  local mime b64 payload body content meta http wall width height attempt error empty
+  local mime b64 payload body content meta http wall width height attempt error empty stripped blank_tries
   local base jitter retryable send_image scaled scaled_base bytes long_side nw nh
   mime="$(mime_for "$image")"
   width="$(sips -g pixelWidth "$image" 2>/dev/null | awk '/pixelWidth/{print $2}')"
@@ -179,7 +179,9 @@ call_model() {
   (( height > long_side )) && long_side="$height"
   # qwen rejects either side <= 10. DashScope rejects a data-uri over 20MB,
   # and the 14–28MB MME images were the ones that hung for 180s with no body.
-  if (( width > 0 && height > 0 && (width <= 10 || height <= 10 || bytes > 8000000 || long_side > 4096) )); then
+  # Oversized images and invalid-JSON failures are resent at 1024px.
+  # glm-5.3-flash rejects enable_thinking:false on some routes, so those use low.
+  if (( width > 0 && height > 0 && (width <= 10 || height <= 10 || bytes > 2000000 || long_side > 1024) )); then
     scaled_base="$(mktemp -t armsimg)"
     scaled="${scaled_base}.jpg"
     if (( width <= 10 || height <= 10 )); then
@@ -196,14 +198,14 @@ call_model() {
       fi
       sips -z "$nh" "$nw" -s format jpeg -s formatOptions 85 "$image" --out "$scaled" >/dev/null 2>&1 || :
     else
-      sips -Z 4096 -s format jpeg -s formatOptions 80 "$image" --out "$scaled" >/dev/null 2>&1 || :
+      sips -Z 1024 -s format jpeg -s formatOptions 75 "$image" --out "$scaled" >/dev/null 2>&1 || :
     fi
     if [[ -s "$scaled" ]]; then
       send_image="$scaled"
       mime="image/jpeg"
       bytes="$(stat -f%z "$send_image" 2>/dev/null || echo 0)"
-      if (( bytes > 12000000 )); then
-        sips -Z 2048 -s format jpeg -s formatOptions 60 "$send_image" --out "${scaled}.tmp.jpg" >/dev/null 2>&1 || :
+      if (( bytes > 1500000 )); then
+        sips -Z 768 -s format jpeg -s formatOptions 60 "$send_image" --out "${scaled}.tmp.jpg" >/dev/null 2>&1 || :
         if [[ -s "${scaled}.tmp.jpg" ]]; then
           mv "${scaled}.tmp.jpg" "$scaled"
         fi
@@ -220,7 +222,7 @@ call_model() {
   : > "$content"
   base64 < "$send_image" | tr -d '\n' > "$b64"
   jq -n --rawfile b64 "$b64" --arg model "$model" --arg mime "$mime" --arg prompt "$prompt" '
-    {model:$model, max_tokens:64, temperature:0, enable_thinking:false,
+    {model:$model, max_tokens:2048, temperature:0, enable_thinking:"low",
      messages:[{role:"user", content:[
        {type:"image_url", image_url:{url:("data:" + $mime + ";base64," + $b64)}},
        {type:"text", text:$prompt}
@@ -229,6 +231,7 @@ call_model() {
   error=""
   http="000"
   wall="0"
+  blank_tries=0
   for ((attempt = 1; attempt <= MAX_ATTEMPTS; attempt++)); do
     meta="$(request_once "$payload" "$body" || true)"
     http="${meta%% *}"
@@ -236,6 +239,19 @@ call_model() {
     [[ -z "$wall" || "$wall" == "$http" ]] && wall=0
     if [[ "$http" == "200" ]]; then
       jq -r '.choices[0].message.content // ""' "$body" > "$content" 2>/dev/null || :
+      stripped="$(tr -d '[:space:]' < "$content")"
+      if [[ -n "$stripped" ]]; then
+        build_output "$body" "$wall" "$width" "$height" "$row_file" "$content" "" "$dest"
+        break
+      fi
+      # A full 64-token completion previously came back as only a newline because
+      # reasoning consumed the budget. Retry a blank body before recording it.
+      blank_tries=$((blank_tries + 1))
+      log "$model blank content attempt=$attempt"
+      if (( blank_tries < 3 && attempt < MAX_ATTEMPTS )); then
+        sleep 1
+        continue
+      fi
       build_output "$body" "$wall" "$width" "$height" "$row_file" "$content" "" "$dest"
       break
     fi

@@ -4,12 +4,16 @@ __pycache__/
 .venv/
 .idea/
 .vscode/
+.env
+.env.*
+*.tmp
 
 # Downloaded benchmark materials and generated images
 dataset/result/images/
 dataset/result/vhelm/
 data/raw/
 data/processed/
+data/processed/api_runs/
 data/.hf_cache/
 hf_cache/
 
