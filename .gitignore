@@ -17,6 +17,9 @@ data/processed/api_runs/
 data/.hf_cache/
 hf_cache/
 
+# Full training JSONL exceeds GitHub's 100 MB file limit.
+dataset/result/m2_id_free_train.jsonl
+
 # Model outputs, checkpoints, logs, and local caches
 outputs/
 logs/
