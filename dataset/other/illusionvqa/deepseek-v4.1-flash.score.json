@@ -1,0 +1,142 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 435,
+  "overall": {
+    "n": 435,
+    "correct": 341,
+    "em": 0.7839,
+    "correct_numeric": 341,
+    "em_numeric": 0.7839,
+    "errors": 0
+  },
+  "by_slice": {
+    "angle constancy": {
+      "n": 2,
+      "correct": 2,
+      "em": 1.0,
+      "correct_numeric": 2,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "angle illusion": {
+      "n": 26,
+      "correct": 24,
+      "em": 0.9231,
+      "correct_numeric": 24,
+      "em_numeric": 0.9231,
+      "errors": 0
+    },
+    "circle-spiral": {
+      "n": 6,
+      "correct": 4,
+      "em": 0.6667,
+      "correct_numeric": 4,
+      "em_numeric": 0.6667,
+      "errors": 0
+    },
+    "color": {
+      "n": 23,
+      "correct": 22,
+      "em": 0.9565,
+      "correct_numeric": 22,
+      "em_numeric": 0.9565,
+      "errors": 0
+    },
+    "counting": {
+      "n": 11,
+      "correct": 7,
+      "em": 0.6364,
+      "correct_numeric": 7,
+      "em_numeric": 0.6364,
+      "errors": 0
+    },
+    "deceptive design": {
+      "n": 37,
+      "correct": 33,
+      "em": 0.8919,
+      "correct_numeric": 33,
+      "em_numeric": 0.8919,
+      "errors": 0
+    },
+    "edited-scene": {
+      "n": 21,
+      "correct": 16,
+      "em": 0.7619,
+      "correct_numeric": 16,
+      "em_numeric": 0.7619,
+      "errors": 0
+    },
+    "hidden": {
+      "n": 45,
+      "correct": 29,
+      "em": 0.6444,
+      "correct_numeric": 29,
+      "em_numeric": 0.6444,
+      "errors": 0
+    },
+    "impossible object": {
+      "n": 134,
+      "correct": 109,
+      "em": 0.8134,
+      "correct_numeric": 109,
+      "em_numeric": 0.8134,
+      "errors": 0
+    },
+    "occlusion": {
+      "n": 2,
+      "correct": 2,
+      "em": 1.0,
+      "correct_numeric": 2,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "perspective": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "positive-negative space": {
+      "n": 7,
+      "correct": 6,
+      "em": 0.8571,
+      "correct_numeric": 6,
+      "em_numeric": 0.8571,
+      "errors": 0
+    },
+    "real-scene": {
+      "n": 64,
+      "correct": 44,
+      "em": 0.6875,
+      "correct_numeric": 44,
+      "em_numeric": 0.6875,
+      "errors": 0
+    },
+    "repeating pattern": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "size": {
+      "n": 46,
+      "correct": 40,
+      "em": 0.8696,
+      "correct_numeric": 40,
+      "em_numeric": 0.8696,
+      "errors": 0
+    },
+    "upside-down": {
+      "n": 7,
+      "correct": 1,
+      "em": 0.1429,
+      "correct_numeric": 1,
+      "em_numeric": 0.1429,
+      "errors": 0
+    }
+  }
+}

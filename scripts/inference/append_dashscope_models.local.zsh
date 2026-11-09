@@ -27,19 +27,41 @@ SPLITS=(
 )
 LIMIT=0
 DO_MERGE=1
-# Concurrent requests per model. Three models run at once, so total in flight is 3*JOBS.
+# Concurrent requests per model. Models for one split run together.
 JOBS=8
 MAX_ATTEMPTS=12
+SPLIT_SET=0
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --limit) LIMIT="$2"; shift 2 ;;
     --no-merge) DO_MERGE=0; shift ;;
-    --split) SPLITS=("$2"); shift 2 ;;
+    --split)
+      if (( SPLIT_SET )); then
+        SPLITS+=("$2")
+      else
+        SPLITS=("$2")
+        SPLIT_SET=1
+      fi
+      shift 2
+      ;;
     --jobs) JOBS="$2"; shift 2 ;;
+    --models)
+      shift
+      MODELS=()
+      while [[ $# -gt 0 && "$1" != --* ]]; do
+        MODELS+=("$1")
+        shift
+      done
+      ;;
     *) echo "Unknown argument: $1" >&2; exit 2 ;;
   esac
 done
+
+if (( ${#MODELS} < 1 )); then
+  echo "No models selected" >&2
+  exit 2
+fi
 
 if (( JOBS < 1 )); then
   echo "--jobs must be at least 1" >&2
@@ -426,25 +448,25 @@ merge_split() {
   local input="$RESULT_DIR/$split_name"
   local run_dir="$RUN_ROOT/${split_name%.jsonl}"
   local tmp="$input.tmp"
-  local model slug sidecar_path
+  local model slug sidecar_path program
   local -a args
   args=()
-  for model in $MODELS; do
-    sidecar_path="$run_dir/${model}.jsonl"
-    [[ -f "$sidecar_path" ]] || : > "$sidecar_path"
-    slug="${model//[-.]/_}"
-    args+=(--slurpfile "$slug" "$sidecar_path")
-  done
-  if ! jq -c "${args[@]}" '
+  program='
     def index_rows($rows):
       reduce $rows[] as $row ({}; .[$row.query_id] = $row.output);
     def with_model($name; $rows):
       (index_rows($rows)[.query_id]) as $new
       | if $new == null then . else .model_outputs[$name] = $new end;
-    with_model("kimi-k3"; $kimi_k3)
-    | with_model("deepseek-v4.1-flash"; $deepseek_v4_1_flash)
-    | with_model("qwen3.8-max"; $qwen3_8_max)
-  ' "$input" > "$tmp" 2>&3; then
+    .
+  '
+  for model in $MODELS; do
+    sidecar_path="$run_dir/${model}.jsonl"
+    [[ -f "$sidecar_path" ]] || : > "$sidecar_path"
+    slug="${model//[-.]/_}"
+    args+=(--slurpfile "$slug" "$sidecar_path")
+    program+=" | with_model(\"$model\"; \$$slug)"
+  done
+  if ! jq -c "${args[@]}" "$program" "$input" > "$tmp" 2>&3; then
     rm -f "$tmp"
     log "$split_name merge failed; original file left unchanged"
     return 1
@@ -453,7 +475,7 @@ merge_split() {
   log "$split_name merged into $input"
 }
 
-log "start splits=${SPLITS[*]} limit=$LIMIT jobs=$JOBS"
+log "start splits=${SPLITS[*]} models=${MODELS[*]} limit=$LIMIT jobs=$JOBS"
 typeset -a pids
 for split_name in $SPLITS; do
   for model in $MODELS; do

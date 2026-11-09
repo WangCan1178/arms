@@ -1,0 +1,2436 @@
+[
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) after eight."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/7.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id0"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which object comes next?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/10.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nLinda applied a thin layer of wax to the underside of her snowboard and rode the board straight down a hill. Then, she removed the wax and rode the snowboard straight down the hill again. She repeated the rides four more times, alternating whether she rode with a thin layer of wax on the board or not. Her friend Bob timed each ride. Linda and Bob calculated the average time it took to slide straight down the hill on the snowboard with wax compared to the average time on the snowboard without wax.\nFigure: snowboarding down a hill. Identify the question that Linda and Bob's experiment can best answer."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/18.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Does Linda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id2"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Use the graph to answer the question below. Which month is the wettest on average in Christchurch?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/43.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "August"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "April"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "May"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id3"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles. Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/64.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "neither; the samples have the same temperature"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sample A"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "sample B"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id4"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Choose the answer for the missing picture."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/66.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "F"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id5"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Complete the matrix."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/73.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "F"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id6"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Look at the table. Then answer the question. At a price of $790, is there a shortage or a surplus?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/87.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "shortage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "surplus"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) past six."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/107.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id8"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The diagram represents successive rotations, starting from the top down. Which shape comes next?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/123.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id9"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which Shape is missing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/166.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "F"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which option is correct?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/181.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Calculate the missing value."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/198.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) past three."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/226.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time does the clock show?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/272.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9:30"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1:30"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4:30"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "5:30"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "11:30"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which cube is identical to the unfolded net?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/277.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "An Idaho farmer has been monitoring crop prices over time. In 2003, which crop cost the most per cwt?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/312.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "potatoes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "peas"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "apples"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "canola"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id16"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Look at the table. Then answer the question. At a price of $330, is there a shortage or a surplus?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/321.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "shortage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "surplus"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Craig just downloaded the new game Gem Excavator on his phone. In the first level, Craig gains points for each green gem he finds. However, he loses points for each red gem he finds. The table shows how the gems affect Craig's points. Which color gem affects Craig's points less?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/323.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "green"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "red"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) to eight."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/337.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id19"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is six (_)."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/341.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which of the cubes is the same as the unfolded cube?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/358.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Look at the table. Then answer the question. At a price of $320, is there a shortage or a surplus?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/389.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "shortage"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "surplus"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id22"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Look at the following schedule. Which activity begins at 11.50 A.M.?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/404.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "figure skating practice"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "private class"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "adult class"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "children's class"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) after nine."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/419.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id24"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Choose the answer for the missing picture."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/464.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id25"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) past three."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/477.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id26"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What has been done to this letter?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/526.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "slide"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "flip"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "turn"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) to five."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/531.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id28"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What fraction of the shape is blue?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/540.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3/11"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "8/11"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "6/11"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3/5"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which of the cubes is not identical to the unfolded net?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/541.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id30"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Do you see the figures inside these boxes? They form a pattern. Choose the figure in the answer row below that continues the pattern."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/574.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A philanthropic organization compared the amounts of money that its members donated to certain causes. Who donated more money to arts education, Aubrey or Connor?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/584.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Connor"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Aubrey"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id32"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Choose the answer."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/600.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id33"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is twelve (_)."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/623.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id34"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the missing number in the picture?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/644.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "11"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id35"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Find the top view."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/647.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id36"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What time is shown? Answer by typing a time word, not a number. It is (_) past six."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/663.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "o'clock"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "quarter past"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id37"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Erica has $1,525.00. Does she have enough to buy a motorcycle and a canoe?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/696.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which two puzzle pieces form the larger square?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/704.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1 & 2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1 & 3"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1 & 4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2 & 3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2 & 4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id39"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Find the image of the dot (8,-2) under a clockwise rotation by 270\u00b0 about the origin.\""
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/706.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id40"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Use the graph to answer the question below. Which month is the hottest on average in Rome?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/768.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "December, January, and February"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "July and August"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "March and April"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id41"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The diagram below is a model of two solutions. Each blue ball represents one particle of solute. Which solution has a higher concentration of blue particles?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/769.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "neither; their concentrations are the same"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Solution A"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Solution B"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Can you find the missing shape in this picture puzzle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/778.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id43"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the missing pattern in the picture?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/797.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id44"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Choose the answer for the missing picture."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/827.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "E"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "F"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id45"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which matchstick needs to be moved in order to create a square?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/829.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Top"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Bottom"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Left"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Right"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Not possible"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id46"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Determine the next shape."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/872.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "D"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id47"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Approximately, what percentage of jewelry sales in January were Rings?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/896.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Around 21%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Around 27%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Around 31%"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Around 37%"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Choose the missing letters from below to form a word, using all letters presented"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/958.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A, R, N"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "R, D, N"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "I, A, M"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "H, O, W"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  }
+]

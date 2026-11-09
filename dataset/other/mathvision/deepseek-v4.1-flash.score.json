@@ -1,0 +1,542 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 304,
+  "overall": {
+    "n": 304,
+    "correct": 104,
+    "em": 0.3421,
+    "correct_numeric": 105,
+    "em_numeric": 0.3454,
+    "errors": 0
+  },
+  "multiple_choice": {
+    "n": 190,
+    "correct": 70,
+    "em": 0.3684,
+    "correct_numeric": 70,
+    "em_numeric": 0.3684,
+    "errors": 0
+  },
+  "free_form": {
+    "n": 114,
+    "correct": 34,
+    "em": 0.2982,
+    "correct_numeric": 35,
+    "em_numeric": 0.307,
+    "errors": 0
+  },
+  "high_school_college_multiple_choice": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "by_slice": {
+    "level_1:algebra": {
+      "n": 4,
+      "correct": 2,
+      "em": 0.5,
+      "correct_numeric": 2,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_1:combinatorial geometry": {
+      "n": 11,
+      "correct": 3,
+      "em": 0.2727,
+      "correct_numeric": 3,
+      "em_numeric": 0.2727,
+      "errors": 0
+    },
+    "level_1:combinatorics": {
+      "n": 3,
+      "correct": 1,
+      "em": 0.3333,
+      "correct_numeric": 1,
+      "em_numeric": 0.3333,
+      "errors": 0
+    },
+    "level_1:counting": {
+      "n": 15,
+      "correct": 2,
+      "em": 0.1333,
+      "correct_numeric": 2,
+      "em_numeric": 0.1333,
+      "errors": 0
+    },
+    "level_1:descriptive geometry": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_1:graph theory": {
+      "n": 1,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_1:logic": {
+      "n": 1,
+      "correct": 1,
+      "em": 1.0,
+      "correct_numeric": 1,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_1:metric geometry - length": {
+      "n": 1,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_1:solid geometry": {
+      "n": 4,
+      "correct": 1,
+      "em": 0.25,
+      "correct_numeric": 1,
+      "em_numeric": 0.25,
+      "errors": 0
+    },
+    "level_1:statistics": {
+      "n": 4,
+      "correct": 2,
+      "em": 0.5,
+      "correct_numeric": 2,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_1:topology": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_1:transformation geometry": {
+      "n": 5,
+      "correct": 1,
+      "em": 0.2,
+      "correct_numeric": 1,
+      "em_numeric": 0.2,
+      "errors": 0
+    },
+    "level_2:algebra": {
+      "n": 6,
+      "correct": 1,
+      "em": 0.1667,
+      "correct_numeric": 1,
+      "em_numeric": 0.1667,
+      "errors": 0
+    },
+    "level_2:analytic geometry": {
+      "n": 2,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_2:arithmetic": {
+      "n": 9,
+      "correct": 5,
+      "em": 0.5556,
+      "correct_numeric": 5,
+      "em_numeric": 0.5556,
+      "errors": 0
+    },
+    "level_2:combinatorial geometry": {
+      "n": 6,
+      "correct": 1,
+      "em": 0.1667,
+      "correct_numeric": 1,
+      "em_numeric": 0.1667,
+      "errors": 0
+    },
+    "level_2:combinatorics": {
+      "n": 3,
+      "correct": 2,
+      "em": 0.6667,
+      "correct_numeric": 2,
+      "em_numeric": 0.6667,
+      "errors": 0
+    },
+    "level_2:counting": {
+      "n": 4,
+      "correct": 1,
+      "em": 0.25,
+      "correct_numeric": 1,
+      "em_numeric": 0.25,
+      "errors": 0
+    },
+    "level_2:descriptive geometry": {
+      "n": 8,
+      "correct": 4,
+      "em": 0.5,
+      "correct_numeric": 4,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_2:graph theory": {
+      "n": 11,
+      "correct": 3,
+      "em": 0.2727,
+      "correct_numeric": 3,
+      "em_numeric": 0.2727,
+      "errors": 0
+    },
+    "level_2:logic": {
+      "n": 7,
+      "correct": 2,
+      "em": 0.2857,
+      "correct_numeric": 2,
+      "em_numeric": 0.2857,
+      "errors": 0
+    },
+    "level_2:metric geometry - angle": {
+      "n": 3,
+      "correct": 2,
+      "em": 0.6667,
+      "correct_numeric": 2,
+      "em_numeric": 0.6667,
+      "errors": 0
+    },
+    "level_2:metric geometry - area": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_2:metric geometry - length": {
+      "n": 2,
+      "correct": 2,
+      "em": 1.0,
+      "correct_numeric": 2,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_2:solid geometry": {
+      "n": 1,
+      "correct": 1,
+      "em": 1.0,
+      "correct_numeric": 1,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_2:statistics": {
+      "n": 12,
+      "correct": 5,
+      "em": 0.4167,
+      "correct_numeric": 5,
+      "em_numeric": 0.4167,
+      "errors": 0
+    },
+    "level_2:topology": {
+      "n": 1,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_2:transformation geometry": {
+      "n": 5,
+      "correct": 1,
+      "em": 0.2,
+      "correct_numeric": 1,
+      "em_numeric": 0.2,
+      "errors": 0
+    },
+    "level_3:analytic geometry": {
+      "n": 4,
+      "correct": 1,
+      "em": 0.25,
+      "correct_numeric": 1,
+      "em_numeric": 0.25,
+      "errors": 0
+    },
+    "level_3:arithmetic": {
+      "n": 10,
+      "correct": 6,
+      "em": 0.6,
+      "correct_numeric": 6,
+      "em_numeric": 0.6,
+      "errors": 0
+    },
+    "level_3:combinatorial geometry": {
+      "n": 1,
+      "correct": 1,
+      "em": 1.0,
+      "correct_numeric": 1,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_3:combinatorics": {
+      "n": 5,
+      "correct": 1,
+      "em": 0.2,
+      "correct_numeric": 1,
+      "em_numeric": 0.2,
+      "errors": 0
+    },
+    "level_3:logic": {
+      "n": 9,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_3:metric geometry - angle": {
+      "n": 1,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_3:metric geometry - area": {
+      "n": 3,
+      "correct": 2,
+      "em": 0.6667,
+      "correct_numeric": 2,
+      "em_numeric": 0.6667,
+      "errors": 0
+    },
+    "level_3:metric geometry - length": {
+      "n": 2,
+      "correct": 2,
+      "em": 1.0,
+      "correct_numeric": 2,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_3:solid geometry": {
+      "n": 9,
+      "correct": 5,
+      "em": 0.5556,
+      "correct_numeric": 5,
+      "em_numeric": 0.5556,
+      "errors": 0
+    },
+    "level_3:statistics": {
+      "n": 3,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_3:topology": {
+      "n": 6,
+      "correct": 2,
+      "em": 0.3333,
+      "correct_numeric": 2,
+      "em_numeric": 0.3333,
+      "errors": 0
+    },
+    "level_3:transformation geometry": {
+      "n": 3,
+      "correct": 1,
+      "em": 0.3333,
+      "correct_numeric": 1,
+      "em_numeric": 0.3333,
+      "errors": 0
+    },
+    "level_4:algebra": {
+      "n": 1,
+      "correct": 1,
+      "em": 1.0,
+      "correct_numeric": 1,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_4:analytic geometry": {
+      "n": 10,
+      "correct": 1,
+      "em": 0.1,
+      "correct_numeric": 1,
+      "em_numeric": 0.1,
+      "errors": 0
+    },
+    "level_4:combinatorial geometry": {
+      "n": 1,
+      "correct": 1,
+      "em": 1.0,
+      "correct_numeric": 1,
+      "em_numeric": 1.0,
+      "errors": 0
+    },
+    "level_4:combinatorics": {
+      "n": 5,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_4:descriptive geometry": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_4:logic": {
+      "n": 2,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_4:metric geometry - angle": {
+      "n": 8,
+      "correct": 3,
+      "em": 0.375,
+      "correct_numeric": 3,
+      "em_numeric": 0.375,
+      "errors": 0
+    },
+    "level_4:metric geometry - area": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_4:metric geometry - length": {
+      "n": 2,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_4:solid geometry": {
+      "n": 2,
+      "correct": 1,
+      "em": 0.5,
+      "correct_numeric": 1,
+      "em_numeric": 0.5,
+      "errors": 0
+    },
+    "level_4:topology": {
+      "n": 7,
+      "correct": 1,
+      "em": 0.1429,
+      "correct_numeric": 1,
+      "em_numeric": 0.1429,
+      "errors": 0
+    },
+    "level_4:transformation geometry": {
+      "n": 3,
+      "correct": 2,
+      "em": 0.6667,
+      "correct_numeric": 2,
+      "em_numeric": 0.6667,
+      "errors": 0
+    },
+    "level_5:algebra": {
+      "n": 8,
+      "correct": 2,
+      "em": 0.25,
+      "correct_numeric": 2,
+      "em_numeric": 0.25,
+      "errors": 0
+    },
+    "level_5:analytic geometry": {
+      "n": 3,
+      "correct": 1,
+      "em": 0.3333,
+      "correct_numeric": 1,
+      "em_numeric": 0.3333,
+      "errors": 0
+    },
+    "level_5:combinatorics": {
+      "n": 3,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_5:descriptive geometry": {
+      "n": 7,
+      "correct": 3,
+      "em": 0.4286,
+      "correct_numeric": 3,
+      "em_numeric": 0.4286,
+      "errors": 0
+    },
+    "level_5:graph theory": {
+      "n": 7,
+      "correct": 3,
+      "em": 0.4286,
+      "correct_numeric": 3,
+      "em_numeric": 0.4286,
+      "errors": 0
+    },
+    "level_5:metric geometry - angle": {
+      "n": 7,
+      "correct": 4,
+      "em": 0.5714,
+      "correct_numeric": 4,
+      "em_numeric": 0.5714,
+      "errors": 0
+    },
+    "level_5:metric geometry - area": {
+      "n": 12,
+      "correct": 5,
+      "em": 0.4167,
+      "correct_numeric": 5,
+      "em_numeric": 0.4167,
+      "errors": 0
+    },
+    "level_5:metric geometry - length": {
+      "n": 12,
+      "correct": 5,
+      "em": 0.4167,
+      "correct_numeric": 5,
+      "em_numeric": 0.4167,
+      "errors": 0
+    },
+    "level_5:solid geometry": {
+      "n": 3,
+      "correct": 1,
+      "em": 0.3333,
+      "correct_numeric": 1,
+      "em_numeric": 0.3333,
+      "errors": 0
+    },
+    "level_5:topology": {
+      "n": 3,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 0
+    },
+    "level_5:transformation geometry": {
+      "n": 3,
+      "correct": 1,
+      "em": 0.3333,
+      "correct_numeric": 1,
+      "em_numeric": 0.3333,
+      "errors": 0
+    }
+  }
+}

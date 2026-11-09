@@ -1,0 +1,901 @@
+[
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Chase wants to buy 4 kilograms of oval beads and 5 kilograms of star-shaped beads. How much will he spend? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/44.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "18"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id0"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "An administrator at the Department of Motor Vehicles (DMV) tracked the average wait time from month to month. According to the table, what was the rate of change between August and September? (Unit: minutes per month)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/45.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A square is tangent to a line at point P in the figure above. What is the value of x?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/88.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "30"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id2"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "In trying to calculate how much money could be saved by packing lunch, Manny recorded the amount he spent on lunch each day. According to the table, what was the rate of change between Wednesday and Thursday? (Unit: $, per day)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/121.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id3"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Kimberly's classmates revealed how many science articles they read. What is the range of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/146.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id4"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A statistician analyzed the number of runs scored by players last season. How many players scored more than 2 runs last season?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/205.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "24"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id5"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Layla went on a camping trip and logged the number of miles she hiked each day. What is the range of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/215.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id6"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "In the figure above, two line segments meet at a point on line l. If the value of y is equal to the square of the value of x, what is the value of y?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/304.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "100"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The movie critic liked to count the number of actors in each movie he saw. How many movies had at least 30 actors but fewer than 47 actors? (Unit: movies)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/309.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id8"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Kylie spent a week at the beach and recorded the number of shells she found each day. According to the table, what was the rate of change between Thursday and Friday? (Unit: shells per day)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/359.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id9"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Lily and her friends recorded their scores while playing a board game. Which score did the greatest number of people receive?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/471.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "For trapezoid ABCD shown above, AB = 24, AD = 23, and BC = 16. What is the length of segment CD?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/489.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "25"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The owner of a bed and breakfast inn recalled how many guests the inn had hosted each day. What is the median of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/508.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "At Bloomington Consulting, the head of human resources examined how the number of employees with health care benefits varied in response to policy changes. According to the table, what was the rate of change between 2014 and 2015? (Unit: employees per year)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/517.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The Kingwood Ski Resort asked its guests how many times they went sledding last winter. How many guests went sledding more than 2 times?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/524.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The advertising agency counted the number of billboards in each city in the state. How many cities have fewer than 70 billboards? (Unit: cities)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/530.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Rectangle ABCD is subdivided into two identical square regions, as in the figure above. If the area of each square is 9, what is the perimeter of ABCD?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/602.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "18"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id16"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Some friends played a trivia game and recorded their scores. What is the mode of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/627.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Jeffrey is the proud owner of an eclectic bow tie collection. He keeps track of how many bow ties he has, and organizes them by pattern and material. What is the probability that a randomly selected bow tie is designed with swirls and is made of velvet? Simplify any fractions.'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/718.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.21"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The train conductor made sure to count the number of passengers on each train. What is the smallest number of passengers? (Unit: passengers)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/731.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "40"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id19"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much money does Hannah need to buy a baking dish and a cookie jar? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/739.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "23"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Mrs. Zimmerman hosts an annual art contest for kids, and she keeps a record of the number of entries each year. According to the table, what was the rate of change between 2013 and 2014? (Unit: entries per year)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/746.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A gymnast jotted down the number of cartwheels she did each day. What is the mode of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/801.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id22"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Karen bought 4 pounds of silk scraps and 4 pounds of canvas scraps. How much did she spend? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/802.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "69"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A machine at the candy factory dispensed different numbers of lemon-flavored candies into various bags. What is the smallest number of lemon-flavored candies? (Unit: lemon-flavored candies)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/811.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "34"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id24"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Grayson counted the number of pieces of pepperoni on each pizza he made. What is the smallest number of pieces of pepperoni? (Unit: pieces of pepperoni)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/885.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "18"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id25"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A newspaper researched how many grocery stores there are in each town. What is the median of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/886.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id26"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The measure of angle BAC equals x*\\degree. What is the value of x?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/920.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "30"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much more does a navy blue bath mat cost than a yellow bath towel? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/928.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id28"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much money does Hector need to buy a European vacation package and an Australian vacation package? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/933.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9606"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Allie kept a written log of how many miles she biked during the past 7 days. What is the range of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/978.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id30"
+  }
+]

@@ -9,7 +9,8 @@ __pycache__/
 *.tmp
 
 # Downloaded benchmark materials and generated images
-dataset/result/images/
+dataset/**/images/
+dataset/**/*.parquet
 dataset/result/vhelm/
 data/raw/
 data/processed/
@@ -17,8 +18,9 @@ data/processed/api_runs/
 data/.hf_cache/
 hf_cache/
 
-# Full training JSONL exceeds GitHub's 100 MB file limit.
+# JSONL files over GitHub's 100 MB limit; uncompressed parts are stored instead.
 dataset/result/m2_id_free_train.jsonl
+dataset/other/m2_id_free_train.full.jsonl
 
 # Model outputs, checkpoints, logs, and local caches
 outputs/

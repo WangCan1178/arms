@@ -1,0 +1,30 @@
+{
+  "model": "qwen3.8-max",
+  "n": 800,
+  "overall": {
+    "n": 800,
+    "correct": 673,
+    "em": 0.8413,
+    "correct_numeric": 673,
+    "em_numeric": 0.8413,
+    "errors": 0
+  },
+  "by_slice": {
+    "cross": {
+      "n": 400,
+      "correct": 330,
+      "em": 0.825,
+      "correct_numeric": 330,
+      "em_numeric": 0.825,
+      "errors": 0
+    },
+    "single": {
+      "n": 400,
+      "correct": 343,
+      "em": 0.8575,
+      "correct_numeric": 343,
+      "em_numeric": 0.8575,
+      "errors": 0
+    }
+  }
+}

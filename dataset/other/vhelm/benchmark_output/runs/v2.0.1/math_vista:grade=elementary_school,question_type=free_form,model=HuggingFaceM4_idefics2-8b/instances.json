@@ -1,0 +1,4381 @@
+[
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large rubber spheres. Subtract all big shiny cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/4.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id0"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all red things. Subtract all tiny matte balls. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/11.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fill in the blank to describe the model. The model has 4 dots divided into 2 equal groups. There are (_) dots in each group."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/21.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id2"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all brown blocks. Subtract all large blue rubber things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/40.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id3"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all rubber balls. Subtract all yellow shiny things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/47.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id4"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big red metallic spheres. Subtract all big brown matte things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/52.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id5"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the rectangle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/56.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id6"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small balls. Subtract all blue rubber things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/57.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all red matte cubes. Subtract all small green metal objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/63.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id8"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the square?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/67.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "16"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id9"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big matte balls. Subtract all green rubber objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/69.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the rectangle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/71.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "18"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A real estate agent drove around the neighborhood and counted the number of houses on each block. How many blocks have exactly 36 houses? (Unit: blocks)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/72.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Find the missing value."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/78.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all yellow matte blocks. Subtract all tiny brown cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/90.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Find the value of the square in the figure."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/98.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The shape is made of unit squares. What is the area of the shape?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/102.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id16"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small purple matte blocks. Subtract all blocks. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/103.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny balls. Subtract all green metallic things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/109.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big gray matte things. Subtract all small metallic cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/111.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id19"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many baseballs are there?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/113.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "20"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large metal blocks. Subtract all yellow cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/128.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the twig to the nearest inch. The twig is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/129.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id22"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Natalie buys 4.6 kilograms of turmeric. What is the total cost? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/144.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "13.8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Can you find the missing term?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/145.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id24"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/157.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9335"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id25"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The bird watcher counted the number of birds in each flock that passed overhead. How many flocks had at least 17 birds but fewer than 33 birds? (Unit: flocks)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/162.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id26"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/163.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7519"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all cyan rubber cylinders. Subtract all tiny shiny cubes. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/165.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id28"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many cinnamon rolls are there?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/171.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "20"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny brown cylinders. Subtract all tiny brown objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/180.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id30"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all brown cubes. Subtract all gray cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/183.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/187.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9015"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id32"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/190.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id33"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all red things. Subtract all cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/193.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id34"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large red rubber blocks. Subtract all tiny red matte objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/218.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id35"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all blue shiny spheres. Subtract all big blue shiny cubes. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/222.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id36"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/233.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id37"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much money does Damon need to buy a grilled steak and a mushroom pizza? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/245.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "24"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all green rubber cubes. Subtract all red matte blocks. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/249.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id39"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all green balls. Subtract all shiny things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/251.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id40"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "An employee at the craft store counted the number of red buttons in each bag of mixed buttons. How many bags had at least 60 red buttons but fewer than 81 red buttons?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/258.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id41"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large yellow metal blocks. Subtract all gray metallic cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/259.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/263.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "38"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id43"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Justine's P.E. class participated in a push-up competition, and Justine wrote down how many push-ups each person could do. How many people did at least 60 push-ups? (Unit: people)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/265.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "11"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id44"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Colton wants to buy 1+3/10 kilograms of English muffins. How much will he spend? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/268.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10.4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id45"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fill in the blank to describe the model. The model has 4 dots divided into 2 equal groups. There are (_) dots in each group."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/289.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id46"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/295.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id47"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the pencil to the nearest inch. The pencil is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/326.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny cubes. Subtract all brown balls. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/330.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Several people compared how many Web pages they had visited. What is the mean of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/331.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "64"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A taxi cab driver tracked how many miles he drove each month. How many miles did the taxi cab driver drive in total in January and April? (Unit: miles)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/332.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7873"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id51"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large brown matte balls. Subtract all blue cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/335.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id52"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small purple metallic spheres. Subtract all small purple things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/343.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id53"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many kites are there?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/345.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "25"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id54"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/350.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id55"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all cyan cylinders. Subtract all tiny purple rubber objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/362.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny gray metal blocks. Subtract all purple things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/363.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id57"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big yellow metallic spheres. Subtract all tiny metal things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/365.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id58"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small gray spheres. Subtract all cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/372.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all purple matte cubes. Subtract all tiny gray metal cubes. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/376.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id60"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Mr. Huffman, a P.E. teacher, wrote down how much weight each of his students could lift. How many people lifted at least 46 pounds? (Unit: people)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/392.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id61"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the shape?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/399.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id62"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many snowmen are there?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/406.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "15"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id63"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the shape?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/441.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id64"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/453.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/457.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4525"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large cyan matte balls. Subtract all tiny shiny objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/459.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id67"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large gray things. Subtract all small brown metallic balls. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/463.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id68"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/472.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id69"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/475.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id70"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/484.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id71"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all brown things. Subtract all tiny blue metallic objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/488.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id72"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/494.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id73"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big red rubber cylinders. Subtract all blue objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/501.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id74"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many Triangles do you see in the picture?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/519.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "12"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id75"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/522.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id76"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small cyan cubes. Subtract all large yellow rubber cubes. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/533.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id77"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small green cubes. Subtract all large cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/562.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id78"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/567.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "For an economics project, Colleen determined the cost of ferry rides for bicycles and cars. How much higher is the fare for a car on the Mukilteu-Clinton ferry than on the Southport-Fort Fisher ferry? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/568.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id80"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all purple matte blocks. Subtract all brown things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/570.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A race car driver kept track of how many laps he drove in the past 5 days. What is the mode of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/573.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "53"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id82"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/578.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9567"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id83"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large matte cubes. Subtract all matte blocks. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/581.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id84"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large green matte cubes. Subtract all big green blocks. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/605.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id85"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the rectangle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/606.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id86"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all yellow shiny things. Subtract all yellow metal things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/607.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id87"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big green matte cylinders. Subtract all big brown cubes. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/609.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id88"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A shipping company keeps track of the number of boxes in each shipment they send out. How many shipments had exactly 56 boxes? (Unit: shipments)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/611.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id89"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all blue metal things. Subtract all tiny objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/612.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id90"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many houses are there?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/613.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id91"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/620.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id92"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all brown objects. Subtract all large purple cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/626.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id93"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/636.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "34"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The employee at the department store counted the number of ties on each tie rack. How many racks have at least 0 ties? (Unit: racks)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/646.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "25"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "For an assignment, Johnny looked at which countries got the most Nobel Prizes in various decades. In the 1990s, how many more Nobel Prize winners did Canada have than Italy? (Unit: Nobel Prize winners)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/651.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id96"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/658.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all red objects. Subtract all big green things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/666.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id98"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the twig to the nearest inch. The twig is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/672.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id99"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/683.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id100"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Calculate the missing item."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/691.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "256"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id101"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/701.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the shape?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/712.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id103"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Brenda graphed the daily low temperature for 5 days. What is the range of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/719.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "13"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/728.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id105"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the twig to the nearest inch. The twig is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/742.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id106"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number is missing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/750.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "18"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/759.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id108"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny shiny balls. Subtract all purple objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/763.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id109"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number is missing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/780.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id110"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number is missing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/782.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id111"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much money does Ruth need to buy a baking dish, a casserole dish, and an ice cream scoop? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/799.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "13"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id112"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large purple spheres. Subtract all small gray things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/808.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id113"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all yellow metallic balls. Subtract all small yellow shiny things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/810.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id114"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much money does Luca need to buy a sour apple candy and a butterscotch candy? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/824.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.13"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id115"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Linda wants to buy 0.9 pounds of double chocolate cookie dough. How much will she spend? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/828.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2.7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "An author recorded how many words she wrote in the past 3 days. How many words in total did the author write on Thursday and Friday? (Unit: words)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/831.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "679"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id117"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Some friends compared the sizes of their stuffed animal collections. What is the median of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/841.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id118"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number is missing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/852.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "40"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id119"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Miss Foley ran a sit-up competition among her P.E. students and monitored how many sit-ups each students could do. What is the largest number of sit-ups done? (Unit: sit-ups)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/860.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "86"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id120"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A food industry researcher compiled the revenues of several pizzerias. How much did Dan's Deep Dish make from pizza sales? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/867.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "22"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id121"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big green cylinders. Subtract all rubber cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/868.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id122"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large yellow matte cubes. Subtract all metal things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/869.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id123"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/871.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id124"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all yellow things. Subtract all blue cylinders. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/875.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id125"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all large gray rubber things. Subtract all small blue spheres. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/879.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id126"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number is missing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/883.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "15"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id127"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small green shiny balls. Subtract all small metallic things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/888.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id128"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number comes next?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/899.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2123"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id129"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all shiny spheres. Subtract all big red matte spheres. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/901.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id130"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/904.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id131"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all blue metal balls. Subtract all large matte things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/910.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id132"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny purple shiny cubes. Subtract all large purple balls. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/914.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id133"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Calculate the missing item."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/918.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id134"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Haley went to the store. She bought 3+9/10 pounds of pumpernickel bread crumbs. How much did she spend? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/925.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "19.5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id135"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How much money does Tim need to buy a mystery game and a toy rocket? (Unit: $)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/929.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "85"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id136"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big red things. Subtract all metallic things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/940.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id137"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which is the next number in the series?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/941.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id138"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the perimeter of the shape?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/944.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id139"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Some students compared how many blocks they live from school. What is the mean of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/948.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "11"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id140"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all small blue rubber objects. Subtract all brown shiny balls. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/956.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id141"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The teachers at an elementary school counted how many desks they had in their classrooms. What is the median of the numbers?'"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/959.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "32"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id142"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/964.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id143"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Move the ruler to measure the length of the pencil to the nearest inch. The pencil is about (_) inches long."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/966.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id144"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all blue balls. Subtract all big yellow rubber balls. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/968.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id145"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all brown matte objects. Subtract all blue metallic objects. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/975.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id146"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What number is shown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/979.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9079"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id147"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all tiny yellow matte cylinders. Subtract all small blue rubber spheres. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/993.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id148"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all big shiny balls. Subtract all blue rubber blocks. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/996.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id149"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Subtract all brown matte cylinders. Subtract all big purple matte things. How many objects are left?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/1000.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id150"
+  }
+]

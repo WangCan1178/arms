@@ -1,0 +1,1655 @@
+[
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "When a spring does work on an object, we cannot find the work by simply multiplying the spring force by the object's displacement. The reason is that there is no one value for the force-it changes. However, we can split the displacement up into an infinite number of tiny parts and then approximate the force in each as being constant. Integration sums the work done in all those parts. Here we use the generic result of the integration.\r\n\r\nIn Figure, a cumin canister of mass $m=0.40 \\mathrm{~kg}$ slides across a horizontal frictionless counter with speed $v=0.50 \\mathrm{~m} / \\mathrm{s}$. It then runs into and compresses a spring of spring constant $k=750 \\mathrm{~N} / \\mathrm{m}$. When the canister is momentarily stopped by the spring, by what distance $d$ is the spring compressed?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/1.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1.2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id0"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the limit as x approaches -1?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/37.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the value of r at theta=3*pi/2?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/81.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id2"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "ABCD is a square. Inscribed Circle center is O. Find the the angle of \u2220AMK. Return the numeric value."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/84.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "130.9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id3"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the maximum value of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/118.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id4"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the degree of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/120.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id5"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the limit of the as x approaches 1 from the left side?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/156.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id6"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the biggest zero of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/167.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many methods in the table achieve an A-847 score higher than 20.0?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/188.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id8"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many sequences have negative Influence Scores?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/197.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id9"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Figure 23-42 is a section of a conducting rod of radius $R_1=1.30 \\mathrm{~mm}$ and length $L=$ $11.00 \\mathrm{~m}$ inside a thin-walled coaxial conducting cylindrical shell of radius $R_2=10.0 R_1$ and the (same) length $L$. The net charge on the rod is $Q_1=+3.40 \\times 10^{-12} \\mathrm{C}$; that on the shell is $Q_2=-2.00 Q_1$. What is the magnitude $E$ of the electric field at radial distance $r=2.00 R_2$?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/199.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.21"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the degree of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/217.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fig. Q4 shows the contour of an object. Represent it with an 8-directional chain code. The resultant chain code should be normalized with respect to the starting point of the chain code. Represent the answer as a list with each digit as a element."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/225.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "[0, 2, 0, 2, 1, 7, 1, 2, 0, 3, 0, 6]"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many models in the table have a model size larger than 10B?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/241.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "11"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Assume that all gases are perfect and that data refer to 298 K unless otherwise stated. In 1995, the Intergovernmental Panel on Climate Change (IPCC) considered a global average temperature rise of $1.0-3.5^{\\circ} \\mathrm{C}$ likely by the year 2100 , with $2.0^{\\circ} \\mathrm{C}$ its best estimate. Because water vapour is itself a greenhouse gas, the increase in water vapour content of the atmosphere is of some concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of $2.0 \\mathrm{~K}$, assuming that the relative humidity remains constant. (The present global mean temperature is $290 \\mathrm{~K}$, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/246.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "13"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A spaceship of mass $m=4.50 \\times 10^3 \\mathrm{~kg}$ is in a circular Earth orbit of radius $r=8.00 \\times 10^6 \\mathrm{~m}$ and period $T_0=118.6 \\mathrm{~min}=$ $7.119 \\times 10^3 \\mathrm{~s}$ when a thruster is fired in the forward direction to decrease the speed to $96.0 \\%$ of the original speed. What is the period $T$ of the resulting elliptical orbit (Figure)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/247.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "6.36"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Consider the infinitely long chain of resistors shown below. What is the resistance between terminals a and b if R=1?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/252.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.73"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id16"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "In Fig. 21-25, the particles have charges $q_1=-q_2=100 \\mathrm{nC}$ and $q_3=-q_4=200 \\mathrm{nC}$, and distance $a=$ $5.0 \\mathrm{~cm}$. What is the $x$ component of the net electrostatic force on particle 3?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/294.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.17"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Figure is an overhead view of the path taken by a race car driver as his car collides with the racetrack wall. Just before the collision, he is traveling at speed $v_i=70 \\mathrm{~m} / \\mathrm{s}$ along a straight line at $30^{\\circ}$ from the wall. Just after the collision, he is traveling at speed $v_f=50 \\mathrm{~m} / \\mathrm{s}$ along a straight line at $10^{\\circ}$ from the wall. His mass $m$ is $80 \\mathrm{~kg}$. The collision lasts for $14 \\mathrm{~ms}$. What is the magnitude of the average force on the driver during the collision?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/307.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2.58"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the y-intercept of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/346.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id19"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "At time $t=0$ a tank contains $Q_0 \\mathrm{lb}$ of salt dissolved in 100 gal of water; see Figure 2.3.1. Assume that water containing $\\frac{1}{4} \\mathrm{lb}$ of salt/gal is entering the tank at a rate of $r \\mathrm{gal} / \\mathrm{min}$ and that the well-stirred mixture is draining from the tank at the same rate. Set up the initial value problem that describes this flow process. By finding the amount of salt $Q(t)$ in the tank at any time, and the limiting amount $Q_L$ that is present after a very long time, if $r=3$ and $Q_0=2 Q_L$, find the time $T$ after which the salt level is within $2 \\%$ of $Q_L$. "
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/353.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "130.4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the radius of this circle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/409.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "An elevator cab of mass $m=500 \\mathrm{~kg}$ is descending with speed $v_i=4.0 \\mathrm{~m} / \\mathrm{s}$ when its supporting cable begins to slip, allowing it to fall with constant acceleration $\\vec{a}=\\vec{g} / 5$.\r\nDuring the $12 \\mathrm{~m}$ fall, what is the work $W_T$ done on the cab by the upward pull $\\vec{T}$ of the elevator cable?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/421.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-47"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id22"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Fig.Q3 shows an excerpt of the transmission phase of a TCP connection. Assume the length of the IP header is 20 bytes. What is the ACK number at message 6?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/437.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "839"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A perceptual audio codec is used to compress an audio signal. The codec groups every 4 barks into a subband and then allocates bits to different subbands according to the result of a spectrum analysis based on a psychoacoustic model. All samples in the same subband are quantized with the same quantizer, and the bit resolution of which is allocated by the codec. (The Bark scale is a psychoacoustical scale proposed by Eberhard Zwicker in 1961.) Fig. Q1a shows the frequency spectrum of a windowed segment of audio signal. The psychoacoustic model shown in Fig. Q1b is used in the audio codec to derive the masking threshold for the audio segment. How many potential maskers in Fig. Q1a?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/461.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id24"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the y coordinate of the center of mass of the isosceles right triangle of uniform areal density shown in Figure 9-C?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/512.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.24"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id25"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many models in the figure achieve an Acc score greater than 60?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/542.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id26"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many queries have a p-value lower than 0.50?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/552.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "When does the function start decreasing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/572.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id28"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Consider the following matrices:\r\n$$\r\n\\mathbf{A}=\\left(\\begin{array}{rrr}\r\n1 & 2 & -1 \\\\\r\n0 & 3 & 1 \\\\\r\n2 & 0 & 1\r\n\\end{array}\\right), \\quad \\mathbf{B}=\\left(\\begin{array}{rrr}\r\n2 & 1 & 0 \\\\\r\n0 & -1 & 2 \\\\\r\n1 & 1 & 3\r\n\\end{array}\\right), \\quad \\mathbf{C}=\\left(\\begin{array}{ll}\r\n2 & 1 \\\\\r\n4 & 3 \\\\\r\n1 & 0\r\n\\end{array}\\right)\r\n$$\r\nFind $|\\mathbf{A B}|$."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/577.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-104"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the global maximum of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/592.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id30"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The magnitude of the acceleration vector a is $10 \\mathrm{~cm} / \\mathrm{s}^2$. Use the figure to estimate the normal components of $\\mathbf{a}$.\r\n"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/617.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the value of f(4)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/619.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "16"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id32"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Find the size of angle MBD in the figure below."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/630.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "72"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id33"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The graph of the concentration function $c(t)$ is shown after a 7-mg injection of dye into a heart. Use Simpson's Rule to estimate the cardiac output."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/641.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5.77"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id34"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the minimum value of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/648.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id35"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the size of the semicircle rounded to 2 decimal places?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/671.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "14.14"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id36"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the value of f(0)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/709.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id37"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "When does the function value first reach 2?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/720.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many odd functions are in the graph?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/721.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id39"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "In Figure, suppose that Barbara's velocity relative to Alex is a constant $v_{B A}=52 \\mathrm{~km} / \\mathrm{h}$ and car $P$ is moving in the negative direction of the $x$ axis.\r\n(a) If Alex measures a constant $v_{P A}=-78 \\mathrm{~km} / \\mathrm{h}$ for car $P$, what velocity $v_{P B}$ will Barbara measure?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/725.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-130"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id40"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Square ABCD. CT: tangent to semicircle. Find the angle \u2220CTD. Return the numeric value."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/733.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "63.4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id41"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the maximum value of y?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/767.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the amplitude of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/770.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id43"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Given $V_s$ = 5V, $R_1$ = 1k\u03a9, $R_2$ = 2.2k\u03a9, $R_3$ = 2.2k\u03a9, $R_4$ = 1.5k\u03a9, and $R_L$ = 4.7k\u03a9. Determine the voltage and current across $R_L$. Answer in unit of V (3 sig.fig.)."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/791.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1.06"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id44"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the highest Elo score for the agent using an offline RL algorithm?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/793.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1578"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id45"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the value of f(0)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/832.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id46"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Phenylalanine (Phe, 5) is a naturally occurring amino acid. What is the energy of interaction between its phenyl group and the electric dipole moment of a neighbouring peptide group? Take the distance between the groups as $4.0 \\mathrm{~nm}$ and treat the phenyl group as a benzene molecule. The magnitude of the dipole moment of the peptide group is $\\mu=1.3 \\mathrm{D}$ and the polarizability volume of benzene is $\\alpha^{\\prime}=1.04 \\times 10^{-29} \\mathrm{~m}^3$.\r\n"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/833.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "-4.3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id47"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "One of the most dramatic videos on the web (but entirely fictitious) supposedly shows a man sliding along a long water slide and then being launched into the air to land in a water pool. Let's attach some reasonable numbers to such a flight to calculate the velocity with which the man would have hit the water. Figure indicates the launch and landing sites and includes a superimposed coordinate system with its origin conveniently located at the launch site. From the video we take the horizontal flight distance as $D=20.0 \\mathrm{~m}$, the flight time as $t=2.50 \\mathrm{~s}$, and the launch angle as $\\theta_0=40.0^{\\circ}$. Find the magnitude of the velocity at launch and at landing."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/862.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10.44"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the value of y at x=-2.5?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/874.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the limit of the blue function as x approaches negative infinity?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/893.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the size of the shaded area under the curve? Round the answer to 2 decimal places"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/926.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7.07"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id51"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the value of f(0)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/942.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id52"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "For what x does f reach its local maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/963.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id53"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "How many zeros does this function have?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/973.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id54"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "A cross-section of an airplane wing is shown. Measurements of the thickness of the wing, in centimeters, at 20-centimeter intervals are 5.8, 20.3, 26.7, 29.0, 27.6, 27.3, 23.8, 20.5, 15.1, 8.7, and 2.8. Use the Midpoint Rule to estimate the area of the wing's cross-section."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/987.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4232"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id55"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The magnitude of the acceleration vector a is $10 \\mathrm{~cm} / \\mathrm{s}^2$. Use the figure to estimate the tangential components of $\\mathbf{a}$.\r\n"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/999.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4.5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  }
+]

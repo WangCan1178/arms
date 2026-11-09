@@ -1,0 +1,86 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 951,
+  "overall": {
+    "n": 951,
+    "correct": 734,
+    "em": 0.7718,
+    "correct_numeric": 734,
+    "em_numeric": 0.7718,
+    "errors": 6
+  },
+  "by_slice": {
+    "VD:figure": {
+      "n": 80,
+      "correct": 76,
+      "em": 0.95,
+      "correct_numeric": 76,
+      "em_numeric": 0.95,
+      "errors": 0
+    },
+    "VD:illusion": {
+      "n": 144,
+      "correct": 89,
+      "em": 0.6181,
+      "correct_numeric": 89,
+      "em_numeric": 0.6181,
+      "errors": 0
+    },
+    "VD:math": {
+      "n": 108,
+      "correct": 68,
+      "em": 0.6296,
+      "correct_numeric": 68,
+      "em_numeric": 0.6296,
+      "errors": 0
+    },
+    "VD:ocr": {
+      "n": 89,
+      "correct": 79,
+      "em": 0.8876,
+      "correct_numeric": 79,
+      "em_numeric": 0.8876,
+      "errors": 0
+    },
+    "VD:video": {
+      "n": 170,
+      "correct": 119,
+      "em": 0.7,
+      "correct_numeric": 119,
+      "em_numeric": 0.7,
+      "errors": 0
+    },
+    "VS:chart": {
+      "n": 130,
+      "correct": 114,
+      "em": 0.8769,
+      "correct_numeric": 114,
+      "em_numeric": 0.8769,
+      "errors": 6
+    },
+    "VS:map": {
+      "n": 64,
+      "correct": 49,
+      "em": 0.7656,
+      "correct_numeric": 49,
+      "em_numeric": 0.7656,
+      "errors": 0
+    },
+    "VS:ocr": {
+      "n": 54,
+      "correct": 43,
+      "em": 0.7963,
+      "correct_numeric": 43,
+      "em_numeric": 0.7963,
+      "errors": 0
+    },
+    "VS:table": {
+      "n": 112,
+      "correct": 97,
+      "em": 0.8661,
+      "correct_numeric": 97,
+      "em_numeric": 0.8661,
+      "errors": 0
+    }
+  }
+}

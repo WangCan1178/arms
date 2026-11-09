@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5-mini",
+  "n": 800,
+  "overall": {
+    "n": 800,
+    "correct": 523,
+    "em": 0.6538,
+    "correct_numeric": 523,
+    "em_numeric": 0.6538,
+    "errors": 0
+  },
+  "by_slice": {
+    "cross": {
+      "n": 400,
+      "correct": 238,
+      "em": 0.595,
+      "correct_numeric": 238,
+      "em_numeric": 0.595,
+      "errors": 0
+    },
+    "single": {
+      "n": 400,
+      "correct": 285,
+      "em": 0.7125,
+      "correct_numeric": 285,
+      "em_numeric": 0.7125,
+      "errors": 0
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "model": "qwen3.8-max",
+  "n": 242,
+  "overall": {
+    "n": 242,
+    "correct": 200,
+    "em": 0.8264,
+    "correct_numeric": 200,
+    "em_numeric": 0.8264,
+    "errors": 0
+  },
+  "multiple_choice": {
+    "n": 242,
+    "correct": 200,
+    "em": 0.8264,
+    "correct_numeric": 200,
+    "em_numeric": 0.8264,
+    "errors": 0
+  },
+  "free_form": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "high_school_college_multiple_choice": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "by_slice": {
+    "blink:Counting": {
+      "n": 120,
+      "correct": 94,
+      "em": 0.7833,
+      "correct_numeric": 94,
+      "em_numeric": 0.7833,
+      "errors": 0
+    },
+    "blink:Object_Localization": {
+      "n": 122,
+      "correct": 106,
+      "em": 0.8689,
+      "correct_numeric": 106,
+      "em_numeric": 0.8689,
+      "errors": 0
+    }
+  }
+}

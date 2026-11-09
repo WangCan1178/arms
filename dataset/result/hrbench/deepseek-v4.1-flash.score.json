@@ -1,0 +1,30 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 800,
+  "overall": {
+    "n": 800,
+    "correct": 595,
+    "em": 0.7438,
+    "correct_numeric": 595,
+    "em_numeric": 0.7438,
+    "errors": 0
+  },
+  "by_slice": {
+    "cross": {
+      "n": 400,
+      "correct": 292,
+      "em": 0.73,
+      "correct_numeric": 292,
+      "em_numeric": 0.73,
+      "errors": 0
+    },
+    "single": {
+      "n": 400,
+      "correct": 303,
+      "em": 0.7575,
+      "correct_numeric": 303,
+      "em_numeric": 0.7575,
+      "errors": 0
+    }
+  }
+}

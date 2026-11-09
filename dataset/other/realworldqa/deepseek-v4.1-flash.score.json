@@ -1,0 +1,30 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 765,
+  "overall": {
+    "n": 765,
+    "correct": 576,
+    "em": 0.7529,
+    "correct_numeric": 576,
+    "em_numeric": 0.7529,
+    "errors": 0
+  },
+  "by_slice": {
+    "multiple_choice": {
+      "n": 438,
+      "correct": 343,
+      "em": 0.7831,
+      "correct_numeric": 343,
+      "em_numeric": 0.7831,
+      "errors": 0
+    },
+    "short_answer": {
+      "n": 327,
+      "correct": 233,
+      "em": 0.7125,
+      "correct_numeric": 233,
+      "em_numeric": 0.7125,
+      "errors": 0
+    }
+  }
+}

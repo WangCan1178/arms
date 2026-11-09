@@ -1,0 +1,54 @@
+{
+  "model": "gpt-4o-mini",
+  "n": 242,
+  "overall": {
+    "n": 242,
+    "correct": 136,
+    "em": 0.562,
+    "correct_numeric": 136,
+    "em_numeric": 0.562,
+    "errors": 0
+  },
+  "multiple_choice": {
+    "n": 242,
+    "correct": 136,
+    "em": 0.562,
+    "correct_numeric": 136,
+    "em_numeric": 0.562,
+    "errors": 0
+  },
+  "free_form": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "high_school_college_multiple_choice": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "by_slice": {
+    "blink:Counting": {
+      "n": 120,
+      "correct": 70,
+      "em": 0.5833,
+      "correct_numeric": 70,
+      "em_numeric": 0.5833,
+      "errors": 0
+    },
+    "blink:Object_Localization": {
+      "n": 122,
+      "correct": 66,
+      "em": 0.541,
+      "correct_numeric": 66,
+      "em_numeric": 0.541,
+      "errors": 0
+    }
+  }
+}

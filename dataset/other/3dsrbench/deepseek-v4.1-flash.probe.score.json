@@ -1,0 +1,134 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 144,
+  "overall": {
+    "n": 144,
+    "correct": 0,
+    "em": 0.0,
+    "correct_numeric": 0,
+    "em_numeric": 0.0,
+    "errors": 144
+  },
+  "multiple_choice": {
+    "n": 144,
+    "correct": 0,
+    "em": 0.0,
+    "correct_numeric": 0,
+    "em_numeric": 0.0,
+    "errors": 144
+  },
+  "free_form": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "high_school_college_multiple_choice": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "by_slice": {
+    "3dsr:height_higher": {
+      "n": 36,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 36
+    },
+    "3dsr:location_above": {
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 12
+    },
+    "3dsr:location_closer_to_camera": {
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 12
+    },
+    "3dsr:location_next_to": {
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 12
+    },
+    "3dsr:multi_object_closer_to": {
+      "n": 8,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 8
+    },
+    "3dsr:multi_object_facing": {
+      "n": 7,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 7
+    },
+    "3dsr:multi_object_parallel": {
+      "n": 7,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 7
+    },
+    "3dsr:multi_object_same_direction": {
+      "n": 7,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 7
+    },
+    "3dsr:multi_object_viewpoint_towards_object": {
+      "n": 7,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 7
+    },
+    "3dsr:orientation_in_front_of": {
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 12
+    },
+    "3dsr:orientation_on_the_left": {
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 12
+    },
+    "3dsr:orientation_viewpoint": {
+      "n": 12,
+      "correct": 0,
+      "em": 0.0,
+      "correct_numeric": 0,
+      "em_numeric": 0.0,
+      "errors": 12
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "model": "gpt-5-mini",
+  "split": "id_test",
+  "correct": 2351,
+  "queries": 3000,
+  "em": 0.783667,
+  "errors": 17
+}

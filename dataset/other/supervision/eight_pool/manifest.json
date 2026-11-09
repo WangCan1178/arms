@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "candidate_order": [
+    "Qwen/Qwen2.5-VL-7B-Instruct",
+    "HuggingFaceM4/idefics2-8b",
+    "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "kimi-k3",
+    "deepseek-v4.1-flash",
+    "qwen3.8-max",
+    "glm-5.3-flash"
+  ],
+  "original_models": [
+    "Qwen/Qwen2.5-VL-7B-Instruct",
+    "HuggingFaceM4/idefics2-8b",
+    "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "meta-llama/Llama-3.2-11B-Vision-Instruct"
+  ],
+  "new_models": [
+    "kimi-k3",
+    "deepseek-v4.1-flash",
+    "qwen3.8-max",
+    "glm-5.3-flash"
+  ],
+  "query_fields": [
+    "query_id",
+    "benchmark",
+    "task",
+    "language",
+    "answer_type",
+    "question",
+    "prompt",
+    "ground_truth",
+    "choices",
+    "image_path",
+    "original_pool_label",
+    "candidate_labels",
+    "parsed_answers"
+  ],
+  "judged_fields": [
+    "record_id",
+    "source_dataset",
+    "source_id",
+    "lang",
+    "question",
+    "answer",
+    "image_path",
+    "model_name",
+    "model_answer",
+    "correct"
+  ],
+  "judged_image": "image_path is repo-relative; attach_image opens it as JudgedRecord.image",
+  "original_pool_label": "copied from the source top-level label and not recomputed",
+  "source_sha256": {
+    "id_train": "bf23bf11439a5aaa6852dd45249a3911a3c6eeb8b482f7463bac05fc56d33942",
+    "id_test": "e06d03d23822e36061625c861e88c698ece3b7443de46316c435e38b92ad8458",
+    "ood_test": "c33e076ac2043858ffe90e956346ff3b6849f5c10868f2ffc504115eb0ac538b"
+  },
+  "splits": {
+    "id_train": {
+      "queries": 29626,
+      "judged_rows": 237008,
+      "blank_vlm_outputs": {
+        "kimi-k3": 28,
+        "deepseek-v4.1-flash": 37,
+        "qwen3.8-max": 7
+      },
+      "outputs_with_error": {
+        "kimi-k3": 28,
+        "deepseek-v4.1-flash": 37,
+        "qwen3.8-max": 7
+      },
+      "original_pool_answerable": 29626,
+      "original_label_mismatches": 0,
+      "benchmarks": {
+        "ALM-Bench": 143,
+        "MME-RealWorld-Base64": 23358,
+        "MMT-Bench": 6125
+      },
+      "tasks": {
+        "Architecture": 15,
+        "Attention_TrafficSignal": 265,
+        "Attribute_Motion_MultiPedestrians": 244,
+        "Attribute_Motion_MultiVehicles": 640,
+        "Attribute_Motion_Pedestrain": 102,
+        "Attribute_Motion_Pedestrian": 62,
+        "Attribute_Motion_Vehicle": 197,
+        "Attribute_Visual_TrafficSignal": 215,
+        "Character Identification": 279,
+        "Customs": 7,
+        "Diagram": 565,
+        "Economy": 4,
+        "Festivals": 8,
+        "Food": 18,
+        "Heritage": 16,
+        "Indoor": 6,
+        "Lifestyle": 7,
+        "Literature": 9,
+        "Media": 21,
+        "Meme": 2,
+        "Music": 11,
+        "Notable_key_figures": 9,
+        "Object_Count": 524,
+        "Objects_Identify": 945,
+        "Person/counting": 28,
+        "Prediction_Intention_Ego": 189,
+        "Prediction_Intention_Pedestrian": 145,
+        "Prediction_Intention_Vehicle": 197,
+        "Relation_Interaction_Ego2Pedestrain": 60,
+        "Relation_Interaction_Ego2Pedestrian": 55,
+        "Relation_Interaction_Ego2TrafficSignal": 106,
+        "Relation_Interaction_Ego2Vehicle": 104,
+        "Relation_Interaction_Other2Other": 157,
+        "Religion": 3,
+        "Scene Understanding": 272,
+        "Sketch": 1,
+        "Sports": 6,
+        "Table": 554,
+        "Vehicle/counting": 254,
+        "adver_and_product": 1934,
+        "book_map_poster": 1868,
+        "calculate": 222,
+        "color": 1016,
+        "count": 554,
+        "diagram": 1486,
+        "emotion": 427,
+        "gui_navigation": 582,
+        "intention": 111,
+        "license": 873,
+        "meme_understanding": 69,
+        "person/attribute/color": 63,
+        "person/attribute/orientation": 12,
+        "person/counting": 698,
+        "phone_and_address": 938,
+        "position": 1146,
+        "property": 153,
+        "relation_reasoning": 433,
+        "table": 3963,
+        "text_recog": 1567,
+        "vehicle/attribute/color": 151,
+        "vehicle/attribute/orientation": 70,
+        "vehicle/counting": 265,
+        "vehicle/location": 109,
+        "visual_commonsense_reasoning": 29,
+        "visual_recognition": 4585
+      },
+      "eight_answerable": 29626,
+      "missing_image_count": 0,
+      "missing_image_examples": []
+    },
+    "id_test": {
+      "queries": 3000,
+      "judged_rows": 24000,
+      "blank_vlm_outputs": {
+        "deepseek-v4.1-flash": 6,
+        "kimi-k3": 3,
+        "qwen3.8-max": 1
+      },
+      "outputs_with_error": {
+        "deepseek-v4.1-flash": 6,
+        "kimi-k3": 3,
+        "qwen3.8-max": 1
+      },
+      "original_pool_answerable": 3000,
+      "original_label_mismatches": 0,
+      "benchmarks": {
+        "MMT-Bench": 3000
+      },
+      "tasks": {
+        "image_evaluation_judgement": 288,
+        "localization": 912,
+        "meme_understanding": 33,
+        "visual_commonsense_reasoning": 160,
+        "visual_grounding": 125,
+        "visual_recognition": 1482
+      },
+      "eight_answerable": 3000,
+      "missing_image_count": 0,
+      "missing_image_examples": []
+    },
+    "ood_test": {
+      "queries": 8626,
+      "judged_rows": 69008,
+      "blank_vlm_outputs": {
+        "deepseek-v4.1-flash": 8
+      },
+      "outputs_with_error": {
+        "deepseek-v4.1-flash": 8
+      },
+      "original_pool_answerable": 8626,
+      "original_label_mismatches": 0,
+      "benchmarks": {
+        "VHELM": 8626
+      },
+      "tasks": {
+        "a_okvqa_base": 630,
+        "a_okvqa_chinese": 1289,
+        "a_okvqa_dialect": 1268,
+        "a_okvqa_hindi": 1236,
+        "a_okvqa_robustness": 1345,
+        "a_okvqa_spanish": 1316,
+        "a_okvqa_swahili": 1219,
+        "bingo": 9,
+        "crossmodal_3600": 314
+      },
+      "eight_answerable": 8626,
+      "paper_ood": 7084,
+      "paper_ood_eight_answerable": 7084,
+      "missing_image_count": 0,
+      "missing_image_examples": []
+    }
+  }
+}

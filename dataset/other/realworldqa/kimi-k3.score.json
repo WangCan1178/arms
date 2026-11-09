@@ -1,0 +1,30 @@
+{
+  "model": "kimi-k3",
+  "n": 765,
+  "overall": {
+    "n": 765,
+    "correct": 613,
+    "em": 0.8013,
+    "correct_numeric": 613,
+    "em_numeric": 0.8013,
+    "errors": 0
+  },
+  "by_slice": {
+    "multiple_choice": {
+      "n": 438,
+      "correct": 355,
+      "em": 0.8105,
+      "correct_numeric": 355,
+      "em_numeric": 0.8105,
+      "errors": 0
+    },
+    "short_answer": {
+      "n": 327,
+      "correct": 258,
+      "em": 0.789,
+      "correct_numeric": 258,
+      "em_numeric": 0.789,
+      "errors": 0
+    }
+  }
+}

@@ -1,0 +1,5764 @@
+[
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of tiny gray bicycles that are on the left side of the brown metal sedan greater than the number of things that are to the left of the tiny green bicycle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/8.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id0"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer metallic fighters than rubber objects?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/12.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of tiny objects that are behind the small metal jet less than the number of tiny things left of the tiny sedan?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/14.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id2"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the sum of smallest two bar is greater then the largest bar?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/20.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id3"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Periwinkle the maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/24.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id4"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Medium Periwinkle the smoothest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/25.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id5"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Black greater than Deep Sky Blue?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/26.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id6"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there more big red rubber double buss in front of the large red double bus than big green things?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/31.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of gray rubber objects in front of the small yellow aeroplane greater than the number of big cyan matte fighters?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/51.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id8"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Firebrick have the maximum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/58.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id9"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Coral the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/61.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Sky Blue less than Web Maroon?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/75.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of shiny buss less than the number of matte things?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/83.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of brown suvs less than the number of brown rubber school buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/91.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Do the windows have a geometric shape that most houses have?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/92.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which cat is larger?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/99.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "white five"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "white three"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "white four"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "white one"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "white two"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Dark Violet have the minimum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/105.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id16"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the sum of two lowest bar is greater then the largest bar?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/110.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of big cyan airliners less than the number of gray shiny utility bikes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/112.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer yellow regular buss than small yellow metallic school buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/122.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id19"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of buss that are in front of the big yellow aeroplane less than the number of matte bicycles that are on the right side of the tiny thing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/135.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the sandwich cut in half?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/138.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Indigo have the lowest value?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/139.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id22"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which food has the least carbs?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/140.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "soup"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "water"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sandwich"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "buns"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is it split in half?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/142.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id24"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Web Green have the minimum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/155.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id25"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Light Seafoam less than Dark Salmon?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/172.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id26"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of small rubber buss behind the big green road bike less than the number of suvs that are behind the large brown matte truck?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/173.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer tiny cyan suvs that are behind the aeroplane than cyan utility bikes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/174.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id28"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of brown tandem bikes that are to the left of the small blue matte car greater than the number of tiny blue biplanes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/177.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Web Green greater than Yellow?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/182.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id30"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Light Sky Blue the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/200.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Cornflower the minimum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/212.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id32"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Orchid the maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/227.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id33"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the highest lysine level given?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/229.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.33%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.31%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.29%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.32%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.30%"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id34"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Sky Blue the minimum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/239.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id35"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Aqua have the minimum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/244.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id36"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of green matte choppers greater than the number of large yellow shiny motorbikes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/248.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id37"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of big objects that are in front of the metal fighter less than the number of things that are behind the big metallic bus?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/254.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Was this a square pizza?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/281.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id39"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "In which period the number of full time employees is the maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/291.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Jul '21"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Jun '21"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mar '21"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "May '21"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Apr '21"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id40"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Rebecca Purple greater than Olive Drab?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/292.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id41"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of green buss greater than the number of blue school buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/297.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Lime Green less than Dim Gray?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/303.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id43"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the bed much larger than the kitten?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/306.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id44"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Crimson the minimum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/314.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id45"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Would most of the ground cover be considered weeds?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/319.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id46"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Web Purple have the maximum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/325.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id47"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer yellow metal tandem bikes in front of the small yellow metallic bicycle than metal bicycles on the left side of the large brown jet?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/334.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of metal cars that are left of the tiny matte school bus greater than the number of tiny cyan double buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/344.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of green metallic double buss less than the number of big purple rubber cruisers?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/347.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are the pieces in triangle cuts?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/348.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id51"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer purple rubber objects that are to the left of the red object than tiny matte bicycles?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/351.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id52"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer big motorbikes than rubber choppers?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/356.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id53"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Salmon the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/357.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id54"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of yellow matte school buss greater than the number of big yellow metal cars?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/368.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id55"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Orange Red the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/377.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there more tiny cyan matte articulated buss left of the big school bus than small yellow matte double buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/381.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id57"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the building through the window at least five stories tall?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/382.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id58"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Cyan have the minimum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/385.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer jets that are left of the small brown suv than objects right of the big shiny car?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/390.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id60"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Deep Pink less than Dark Gray?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/423.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id61"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the food half eaten?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/424.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id62"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the white plate half full?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/440.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id63"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Light Slate less than Saddle Brown?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/445.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id64"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Midnight Blue intersect Purple?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/447.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of small yellow metallic choppers that are behind the large cyan thing less than the number of brown metal double buss that are behind the small yellow shiny thing?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/451.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Periwinkle the minimum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/456.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id67"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Light Green the low median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/465.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id68"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Dark Periwinkle intersect Yellow Green?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/466.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id69"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Sky Blue less than Chartreuse?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/469.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id70"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of tiny blue metal bicycles behind the small sedan less than the number of purple fighters?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/480.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id71"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer big cars behind the small brown shiny mountain bike than tiny objects on the right side of the bus?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/487.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id72"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Blue the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/491.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id73"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer green things in front of the blue metallic car than choppers right of the chopper?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/495.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id74"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the water half full?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/498.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id75"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer tandem bikes that are behind the brown metal bicycle than matte trucks on the left side of the green object?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/502.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id76"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Cadet Blue the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/509.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id77"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are most the stepping stones square?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/516.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id78"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Dark Magenta have the maximum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/520.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of big shiny cars in front of the red airliner greater than the number of big purple road bikes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/527.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id80"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer gray trucks that are in front of the large aeroplane than big yellow metal objects in front of the purple object?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/532.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of red rubber bicycles less than the number of cyan metal school buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/537.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id82"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer small purple matte cars than brown matte things?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/543.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id83"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Violet Red less than Crimson?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/545.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id84"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer cyan jets than big buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/548.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id85"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Violet less than Chocolate?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/553.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id86"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Burlywood the minimum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/554.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id87"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this nest larger than a fist?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/555.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id88"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer large red metallic things that are on the left side of the cyan shiny scooter than things that are in front of the small jet?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/556.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id89"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Light Salmon the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/560.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id90"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of gray rubber double buss right of the small red aeroplane the same as the number of small objects that are left of the tiny gray matte bicycle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/561.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id91"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which number on the monitor is higher?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/563.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "top"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "bottom"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "left"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "right"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id92"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Bubblegum the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/571.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id93"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Slate the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/580.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Web Green greater than Rebecca Purple?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/582.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Navy Blue the maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/595.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id96"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dodger Blue the low median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/596.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Orchid the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/604.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id98"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Orchid the maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/618.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id99"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of blue matte school buss greater than the number of large cyan metallic jets?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/625.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id100"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there at least three distinct shades of blue in this photo?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/653.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id101"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer yellow metallic motorbikes that are in front of the small brown metal dirtbike than big yellow dirtbikes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/654.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the value of Russia has the highest transport?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/655.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id103"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Web Maroon the low median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/656.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer small fighters than yellow matte tandem bikes?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/660.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id105"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "On which date of Meeting was the most number of shares transferred?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/670.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "04/06/2005"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "04/02/2005"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "04/05/2005"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "04/03/2005"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "04/04/2005"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id106"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of large green cars less than the number of brown rubber double buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/673.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of dirtbikes right of the large blue object less than the number of small green metallic cars in front of the tiny matte bicycle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/677.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id108"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the largest city in the nation where this plane is headquartered?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/681.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "hong kong"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "osaka"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "shanghai"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "tokyo"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id109"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the minimum age group shown in the \u2018plots\u2019?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/688.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "11-15"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "21-25"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "6-10"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "16-20"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0-5"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id110"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are these people sitting in a circle?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/689.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id111"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the orange larger than the car?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/693.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id112"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Salmon greater than Dark Orchid?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/695.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id113"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of large brown rubber motorbikes in front of the big motorbike greater than the number of big green sedans?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/714.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id114"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Deep Sky Blue the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/722.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id115"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Rebecca Purple have the minimum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/724.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer double buss that are behind the aeroplane than things on the left side of the yellow double bus?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/734.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id117"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of big cyan things in front of the cyan rubber suv less than the number of big suvs that are behind the red bus?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/735.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id118"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What percent of the stands are full?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/740.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "15"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "100"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "50"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "50"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id119"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of tiny purple trucks behind the small matte motorbike less than the number of fighters that are behind the big metal utility bike?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/758.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id120"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of yellow tandem bikes less than the number of big objects?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/760.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id121"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Chartreuse the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/765.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id122"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer tiny red trucks than small blue bicycles?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/766.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id123"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of small yellow shiny motorbikes greater than the number of red rubber fighters?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/772.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id124"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer large matte utility bikes than small yellow bicycles?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/774.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id125"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Orange Red the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/775.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id126"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Medium Orchid intersect Forest Green?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/800.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id127"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the donut more than half eaten?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/805.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id128"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does the gray bar always have smaller value?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/812.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id129"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are most of the people young men?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/821.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id130"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of metallic road bikes that are behind the large bus less than the number of small matte double buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/825.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id131"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there fewer tiny red motorbikes than big red choppers?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/837.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id132"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "From which item can you get the most protein?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/840.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "salami"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "wine"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "cheese"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "bread"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id133"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Aqua greater than Red?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/843.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id134"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the larger window shaped like the smaller window?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/844.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id135"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Brown the high median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/846.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id136"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of cars in front of the tiny metal thing less than the number of large matte things in front of the cyan rubber road bike?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/850.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id137"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Crimson less than Gray?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/861.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id138"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Hot Pink have the lowest value?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/865.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id139"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there more tiny motorbikes in front of the small cyan tandem bike than big cyan metal double buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/870.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id140"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Lawn Green the low median?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/882.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id141"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the blue kite in the lower right corner shaped like?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/884.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "ferret"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "cat"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "cloud"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "octopus"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id142"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Purple the minimum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/889.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id143"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of rubber cars less than the number of brown jets?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/900.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id144"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of large red cars behind the metal car less than the number of blue matte tandem bikes that are behind the big blue rubber utility bike?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/905.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id145"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the sum of smallest two value is greater then then largest value?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/906.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id146"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the smaller picture below the larger picture?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/911.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id147"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Dark Cyan have the maximum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/913.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id148"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Periwinkle have the maximum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/924.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id149"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Dark Periwinkle the roughest?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/937.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id150"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of big brown buss behind the gray matte aeroplane greater than the number of yellow shiny scooters?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/957.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id151"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Does Yellow Green have the maximum area under the curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/969.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id152"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Can the boy reach the highest book?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/971.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id153"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of yellow shiny utility bikes greater than the number of brown metallic cruisers?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/972.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id154"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Are there the same number of big blue trucks and large purple metal double buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/974.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id155"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of metal biplanes behind the purple shiny object less than the number of purple school buss behind the big red object?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/976.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id156"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of gray cars less than the number of small metallic minivans?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/984.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id157"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the number of purple metallic things that are behind the small green motorbike less than the number of blue metal articulated buss?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/992.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id158"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is Magenta greater than Web Maroon?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/994.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "no"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id159"
+  }
+]

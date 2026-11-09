@@ -54,7 +54,8 @@ flowchart LR
 │   ├── label/                  # parse answers and keep answerable queries
 │   └── release/                # export, validate, and materialize the paper splits
 ├── paper/                      # AAAI LaTeX sources and figures
-├── dataset/result/             # query records and model outputs, without images
+├── dataset/result/             # merged query records, without images
+├── dataset/other/              # API runs, supervision, and extra benchmarks, without images
 ├── docs/DATA_REPRODUCTION.md  # end-to-end data reconstruction guide
 └── results/                    # analysis scripts and generated result files
 ```
@@ -166,10 +167,11 @@ the corresponding public benchmark data have been reconstructed locally.
 
 The AAAI LaTeX sources and figures are in [`paper/`](paper/).
 
-Query-level results for the extended candidate pool are in [`dataset/result/`](dataset/result/). Benchmark images are not included. The ID training split is uncompressed JSONL, split into `dataset/result/m2_id_free_train_parts/` because the full file exceeds GitHub's 100 MB limit. Join the parts with:
+Query-level results for the extended candidate pool are in [`dataset/result/`](dataset/result/) and [`dataset/other/`](dataset/other/). Benchmark images are not included, and neither are the source Parquet files that embed those images. Per-model API runs, the OOD split, and the extra benchmarks are under `dataset/other/`. Two training JSONL files exceed GitHub's 100 MB limit and are stored as uncompressed parts. Join them with:
 
 ```bash
 cat dataset/result/m2_id_free_train_parts/part-*.jsonl > dataset/result/m2_id_free_train.jsonl
+cat dataset/other/m2_id_free_train.full_parts/part-*.jsonl > dataset/other/m2_id_free_train.full.jsonl
 ```
 
 ## Citation

@@ -1,0 +1,2425 @@
+[
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The derivative of f(x) at x=2 is ____ that at x=5"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/23.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "larger than"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "equal to"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "smaller than"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id0"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this function continuous at each point?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/34.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id1"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this function odd or even?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/39.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "odd"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "even"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id2"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "is f(3) > 0?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/65.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id3"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which model has the highest Acc score when Pretrain Loss is equal to 1.80?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/86.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "ICL"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "SFT"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "SFT 1/8"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "RFT k=100"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "RFT k=25"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "RET k=6"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "RFT U13B"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id4"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the range of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/117.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "[0, 2]"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "[3, 2]"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "[2, 4]"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "[-3, 4]"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id5"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the function (f: R to R) injective?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/137.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id6"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "When does the function reach its local maximum?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/151.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "(u1, u2) = (0, 0)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "(u1, u2) = (1, 0)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(u1, u2) = (0, 1)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(u1, u2) = (1, 1)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this an odd function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/154.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id8"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Given that the Hue-Saturation subspace shown in Fig. Q2 is a perfect circle and that colors A, B and C can be represented as the 3 points shown in the subspace. Which color has the smallest saturation coefficient?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/168.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "(c)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(a)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(e)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(d)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(b)"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id9"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "f(-1) is ____ f(0)."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/170.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "larger than"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "equal to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "smaller than"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "An image has the gray level PDF $p_r(r)$ shown in Fig. Q1a. One wants to do histogram specification SO that the processed image will have the specified $p_z(z)$ shown in Fig. Q1b. Can we use intensity mapping function $T: z=1-r$ to achieve the goal?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/185.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "True"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "False"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this an even function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/223.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this a periodic function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/224.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which model has the overall best ImageNet 10shot Accuracy score across different training steps?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/231.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Identity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Uniform"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Uniform / Soft"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Soft / Uniform"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Soft"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Dense"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id14"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the epigraph of a function f an infinite set?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/235.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the derivative of the function positive between [1, 2] assuming that it's differentiable?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/260.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id16"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Among the following objects, which one has the best PSNR score?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/278.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Lego"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mats"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mic"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Ship"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which region is larger? R1 or R2?\nA. R1\nB. R2"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/287.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "R1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "R2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "R5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "R3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "R4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "In which of the following value ranges of \u03bb2 does the percentage of Attack Effectiveness begin to be lower than that of Diversity?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/288.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.0 - 0.2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "0.2 - 0.4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.4 - 0.6"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.6 - 0.8"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.8 - 1.0"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id19"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The value of f(-3) is ____ the value of f(2)"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/296.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "larger than"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "equal to"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "smaller than"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which model performs the best overall across the three stages in terms of Messenger training performance?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/301.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Dynalang"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "EMMA"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "R2D2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "IMPALA"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the green curve?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/302.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a polynomial"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a trigonometric function"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "an exponential function"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a logarithmic function"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id22"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is this function most likely be?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/308.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a polynomial"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a trigonometric function"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "an exponential function"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a logarithmic function"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The derivative of y at x=6 is ____ that at x=8"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/329.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "larger than"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "equal to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "smaller than"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id24"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which of the following domains has the most number of BPE Tokens?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/340.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Legal "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Code "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Conversational "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Math "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Science"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Books "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "News "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Encyclopedic"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id25"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which capability boasts the highest proportion (%)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/349.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Rec"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "OCR"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Know"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Gen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Spat"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Math"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id26"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": " In which part of the mold are the cylindrical ports located? "
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/361.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Upper half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Lower half"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Medial half"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Lateral half"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the function (f: R to R) surjective?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/369.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id28"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which of the following environments has the least GPU days for training?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/394.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "HomeGrid"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Msgr S1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Msgr S2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Msgr S3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "VLN"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "LangRoom"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "At which Episode ID does the Retroformer attain its peak Success rate (%)?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/400.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1.0"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1.5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2.0"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2.5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3.0"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3.5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4.0"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id30"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The derivative of f(x) at x=0 is ____ that at x=5"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/430.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "larger than"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "equal to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "smaller than"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "is this function convex?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/439.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id32"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Based on the image, what is the most likely equilibrium population count?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/452.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "40"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "60"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "80"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "100"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id33"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which of the following models has the lowest KS Rollout Loss overall?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/470.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Baseline"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Diffusion"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "PDE-Refiner"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Pushforward"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id34"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the function differentiable at every point?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/493.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id35"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which model can achieve the best ImageNet 10-shot Accuracy score?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/565.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Soft MoE"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Experts Choice"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Tokens Choice"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Dense"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id36"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is this function most likely be?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/661.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a polynomial"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a trigonometric function"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "an exponential function"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a logarithmic function"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id37"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this function invertible?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/686.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the heart wider than more than half the width of the thorax?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/705.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id39"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this a periodic function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/715.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id40"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is \\int_1^{\\infty} {1\\over x^{0.99}} dx finite according to this graph ?\n"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/717.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id41"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the function convex?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/723.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is this function continuous?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/738.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id43"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is this function most likely be?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/755.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a polynomial"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "a trigonometric function"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "an exponential function"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a logarithmic function"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id44"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "What is the center of symmetry of this function?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/762.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "(0, 0)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "(-1, 0)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(2, 0)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id45"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is the cardiac silhouette less than half the diameter of the diaphragm?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/779.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id46"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which function grows the fastest as x increases?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/847.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "red"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "purple"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "blue"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id47"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The 4 8x8 images shown below are encoded with JPEG coding. Based on their expected DCT (Discrete Cosine Transform) coefficients, Which image has the most non-zero AC coefficients? (a): Image A, (b): Image B, (c): Image C, (d): Image D."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/849.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "(c)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(d)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(a)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(b)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "(e)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which model has the lowest Audio-Audio Similarity and Text-Audio Similarity scores overall?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/895.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "MusicLDM (mix-up)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "MusicLDM (original)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "MusicLDM (BLM)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "MusicLDM (BAM)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "MuBERT"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which model achieves the highest score in terms of Rec?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/923.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Transformers Agent (GPT-4)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "LLaMA-Adapter v2-7B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "LLaVA-7B"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Otter-9B "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "MM-ReAct-GPT-3.5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "LLaVA-13B (LLaMA-2)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "MM-ReAct-GPT-4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The slope of f(x) at x=0 is ____"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/950.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "positive"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "negative"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "zero"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "undefined"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id51"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "The value of y at x=10 is ____ that at x=70."
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/962.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "larger than"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "equal to"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "smaller than"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id52"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Which functions have no zeros?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/991.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "green and red"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "blue and orange"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "purple and grey"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id53"
+  },
+  {
+    "input": {
+      "text": "",
+      "multimedia_content": {
+        "media_objects": [
+          {
+            "content_type": "text/plain",
+            "text": "Is kx^2/2 larger than E at x=0?"
+          },
+          {
+            "content_type": "image/jpeg",
+            "location": "benchmark_output/scenarios/math_vista/images/997.jpg"
+          }
+        ]
+      }
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id54"
+  }
+]

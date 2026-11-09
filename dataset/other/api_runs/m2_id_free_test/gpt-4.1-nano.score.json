@@ -1,0 +1,8 @@
+{
+  "model": "gpt-4.1-nano",
+  "split": "id_test",
+  "correct": 1806,
+  "queries": 3000,
+  "em": 0.602,
+  "errors": 17
+}

@@ -1,0 +1,30 @@
+{
+  "model": "kimi-k2.5",
+  "n": 800,
+  "overall": {
+    "n": 800,
+    "correct": 583,
+    "em": 0.7288,
+    "correct_numeric": 583,
+    "em_numeric": 0.7288,
+    "errors": 0
+  },
+  "by_slice": {
+    "cross": {
+      "n": 400,
+      "correct": 255,
+      "em": 0.6375,
+      "correct_numeric": 255,
+      "em_numeric": 0.6375,
+      "errors": 0
+    },
+    "single": {
+      "n": 400,
+      "correct": 328,
+      "em": 0.82,
+      "correct_numeric": 328,
+      "em_numeric": 0.82,
+      "errors": 0
+    }
+  }
+}

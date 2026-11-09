@@ -1,0 +1,70 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 509,
+  "overall": {
+    "n": 509,
+    "correct": 416,
+    "em": 0.8173,
+    "correct_numeric": 416,
+    "em_numeric": 0.8173,
+    "errors": 0
+  },
+  "multiple_choice": {
+    "n": 509,
+    "correct": 416,
+    "em": 0.8173,
+    "correct_numeric": 416,
+    "em_numeric": 0.8173,
+    "errors": 0
+  },
+  "free_form": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "high_school_college_multiple_choice": {
+    "n": 0,
+    "correct": 0,
+    "em": null,
+    "correct_numeric": 0,
+    "em_numeric": null,
+    "errors": 0
+  },
+  "by_slice": {
+    "blink:Counting": {
+      "n": 120,
+      "correct": 91,
+      "em": 0.7583,
+      "correct_numeric": 91,
+      "em_numeric": 0.7583,
+      "errors": 0
+    },
+    "blink:Object_Localization": {
+      "n": 122,
+      "correct": 90,
+      "em": 0.7377,
+      "correct_numeric": 90,
+      "em_numeric": 0.7377,
+      "errors": 0
+    },
+    "blink:Relative_Depth": {
+      "n": 124,
+      "correct": 111,
+      "em": 0.8952,
+      "correct_numeric": 111,
+      "em_numeric": 0.8952,
+      "errors": 0
+    },
+    "blink:Spatial_Relation": {
+      "n": 143,
+      "correct": 124,
+      "em": 0.8671,
+      "correct_numeric": 124,
+      "em_numeric": 0.8671,
+      "errors": 0
+    }
+  }
+}

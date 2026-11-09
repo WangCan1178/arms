@@ -1,0 +1,102 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "n": 1000,
+  "overall": {
+    "n": 1000,
+    "correct": 677,
+    "em": 0.677,
+    "correct_numeric": 681,
+    "em_numeric": 0.681,
+    "errors": 0
+  },
+  "multiple_choice": {
+    "n": 540,
+    "correct": 428,
+    "em": 0.7926,
+    "correct_numeric": 428,
+    "em_numeric": 0.7926,
+    "errors": 0
+  },
+  "free_form": {
+    "n": 460,
+    "correct": 249,
+    "em": 0.5413,
+    "correct_numeric": 253,
+    "em_numeric": 0.55,
+    "errors": 0
+  },
+  "high_school_college_multiple_choice": {
+    "n": 330,
+    "correct": 281,
+    "em": 0.8515,
+    "correct_numeric": 281,
+    "em_numeric": 0.8515,
+    "errors": 0
+  },
+  "by_slice": {
+    "college:free_form": {
+      "n": 57,
+      "correct": 23,
+      "em": 0.4035,
+      "correct_numeric": 25,
+      "em_numeric": 0.4386,
+      "errors": 0
+    },
+    "college:multi_choice": {
+      "n": 55,
+      "correct": 46,
+      "em": 0.8364,
+      "correct_numeric": 46,
+      "em_numeric": 0.8364,
+      "errors": 0
+    },
+    "daily_life:free_form": {
+      "n": 221,
+      "correct": 114,
+      "em": 0.5158,
+      "correct_numeric": 116,
+      "em_numeric": 0.5249,
+      "errors": 0
+    },
+    "daily_life:multi_choice": {
+      "n": 160,
+      "correct": 111,
+      "em": 0.6937,
+      "correct_numeric": 111,
+      "em_numeric": 0.6937,
+      "errors": 0
+    },
+    "elementary_school:free_form": {
+      "n": 151,
+      "correct": 85,
+      "em": 0.5629,
+      "correct_numeric": 85,
+      "em_numeric": 0.5629,
+      "errors": 0
+    },
+    "elementary_school:multi_choice": {
+      "n": 50,
+      "correct": 36,
+      "em": 0.72,
+      "correct_numeric": 36,
+      "em_numeric": 0.72,
+      "errors": 0
+    },
+    "high_school:free_form": {
+      "n": 31,
+      "correct": 27,
+      "em": 0.871,
+      "correct_numeric": 27,
+      "em_numeric": 0.871,
+      "errors": 0
+    },
+    "high_school:multi_choice": {
+      "n": 275,
+      "correct": 235,
+      "em": 0.8545,
+      "correct_numeric": 235,
+      "em_numeric": 0.8545,
+      "errors": 0
+    }
+  }
+}
