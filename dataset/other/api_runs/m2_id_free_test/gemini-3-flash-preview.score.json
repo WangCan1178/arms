@@ -1,0 +1,8 @@
+{
+  "model": "gemini-3-flash-preview",
+  "split": "id_test",
+  "correct": 2242,
+  "queries": 3000,
+  "em": 0.747333,
+  "errors": 0
+}

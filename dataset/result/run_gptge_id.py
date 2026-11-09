@@ -21,19 +21,21 @@ from pathlib import Path
 API_URL = "https://api.gpt.ge/v1/chat/completions"
 MODEL = os.environ.get("GPTGE_MODEL", "gpt-4.1-nano")
 WORKERS = int(os.environ.get("GPTGE_WORKERS", "16"))
+MAX_TOKENS = int(os.environ.get("GPTGE_MAX_TOKENS", "64"))
 MAX_ATTEMPTS = 6
 ROOT = Path("/Users/wangcan/Desktop/m2/dataset/result")
+RUNS = Path(os.environ.get("GPTGE_RUNS_DIR", str(ROOT / "api_runs")))
 SPLITS = {
     "id": (
         ROOT / "m2_id_free_test.jsonl",
-        ROOT / "api_runs" / "m2_id_free_test" / f"{MODEL}.jsonl",
-        ROOT / "api_runs" / "m2_id_free_test" / f"{MODEL}.score.json",
+        RUNS / "m2_id_free_test" / f"{MODEL}.jsonl",
+        RUNS / "m2_id_free_test" / f"{MODEL}.score.json",
         "id_test",
     ),
     "train": (
         ROOT / "m2_id_free_train.jsonl",
-        ROOT / "api_runs" / "m2_id_free_train" / f"{MODEL}.jsonl",
-        ROOT / "api_runs" / "m2_id_free_train" / f"{MODEL}.score.json",
+        RUNS / "m2_id_free_train" / f"{MODEL}.jsonl",
+        RUNS / "m2_id_free_train" / f"{MODEL}.score.json",
         "id_train",
     ),
 }
@@ -186,7 +188,7 @@ def request_once(image_path, prompt):
     mime = MIME.get(suffix, "image/jpeg")
     payload = {
         "model": MODEL,
-        "max_tokens": 64,
+        "max_tokens": MAX_TOKENS,
         "temperature": 0,
         "messages": [{
             "role": "user",
